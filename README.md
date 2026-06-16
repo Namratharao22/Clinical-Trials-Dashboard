@@ -142,23 +142,6 @@ clinical-trial-dashboard/
 │
 └── README.md
 ```
-
----
-
-## How to run locally
-
-```bash
-git clone https://github.com/Namratharao22/clinical-trial-dashboard.git
-cd clinical-trial-dashboard
-
-# Run the notebook (generates summary CSVs and images)
-pip install pandas numpy matplotlib jupyter
-jupyter notebook Notebook/Clinical_Trial_Analytics.ipynb
-
-# Open the dashboard
-open Dashboard/index.html
-```
-
 ---
 
 ## Skills demonstrated
