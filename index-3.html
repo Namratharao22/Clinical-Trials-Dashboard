@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clinical Trial Analytics Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface2: #1c2230;
+      --border: rgba(255,255,255,0.08);
+      --border-accent: rgba(255,255,255,0.14);
+      --text-primary: #e6edf3;
+      --text-secondary: #8b949e;
+      --text-muted: #484f58;
+      --blue: #4f9cf9;
+      --blue-dim: rgba(79,156,249,0.15);
+      --teal: #3fd4a0;
+      --teal-dim: rgba(63,212,160,0.12);
+      --amber: #f0a732;
+      --amber-dim: rgba(240,167,50,0.12);
+      --red: #f85149;
+      --red-dim: rgba(248,81,73,0.12);
+      --purple: #a371f7;
+      --purple-dim: rgba(163,113,247,0.12);
+      --coral: #ff7b72;
+      --coral-dim: rgba(255,123,114,0.12);
+      --green: #56d364;
+      --green-dim: rgba(86,211,100,0.12);
+      --radius: 10px;
+      --radius-sm: 6px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      border-bottom: 1px solid var(--border);
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      background: rgba(13,17,23,0.92);
+      backdrop-filter: blur(8px);
+      z-index: 10;
+    }
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .header-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--teal);
+      box-shadow: 0 0 8px var(--teal);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+    .header-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+    .header-sub { font-size: 12px; color: var(--text-secondary); }
+    .header-right { display: flex; align-items: center; gap: 16px; }
+    .badge {
+      font-size: 11px; font-weight: 500;
+      padding: 3px 10px; border-radius: 20px;
+      border: 1px solid;
+    }
+    .badge-phase { border-color: var(--blue); color: var(--blue); background: var(--blue-dim); }
+    .badge-status { border-color: var(--teal); color: var(--teal); background: var(--teal-dim); }
+    .last-updated { font-size: 11px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+
+    /* Layout */
+    .main { padding: 28px 32px; max-width: 1280px; margin: 0 auto; }
+
+    /* Section label */
+    .section-eyebrow {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted);
+      margin-bottom: 12px; margin-top: 32px;
+    }
+    .section-eyebrow:first-child { margin-top: 0; }
+
+    /* KPI grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .kpi-card:hover { border-color: var(--border-accent); }
+    .kpi-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    }
+    .kpi-card.blue::before  { background: var(--blue); }
+    .kpi-card.teal::before  { background: var(--teal); }
+    .kpi-card.amber::before { background: var(--amber); }
+    .kpi-card.red::before   { background: var(--red); }
+    .kpi-label { font-size: 11px; color: var(--text-secondary); margin-bottom: 6px; }
+    .kpi-value { font-size: 28px; font-weight: 600; line-height: 1; margin-bottom: 6px; }
+    .kpi-card.blue .kpi-value  { color: var(--blue); }
+    .kpi-card.teal .kpi-value  { color: var(--teal); }
+    .kpi-card.amber .kpi-value { color: var(--amber); }
+    .kpi-card.red .kpi-value   { color: var(--red); }
+    .kpi-delta { font-size: 11px; display: flex; align-items: center; gap: 4px; }
+    .kpi-delta.up   { color: var(--teal); }
+    .kpi-delta.warn { color: var(--amber); }
+    .kpi-delta.down { color: var(--red); }
+    .kpi-target {
+      margin-top: 10px;
+      height: 3px; border-radius: 2px;
+      background: rgba(255,255,255,0.06);
+      overflow: hidden;
+    }
+    .kpi-target-fill { height: 100%; border-radius: 2px; }
+
+    /* Chart row */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 12px;
+    }
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .chart-header {
+      display: flex; align-items: flex-start;
+      justify-content: space-between; margin-bottom: 16px;
+    }
+    .chart-title { font-size: 13px; font-weight: 500; color: var(--text-primary); }
+    .chart-sub { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    .legend {
+      display: flex; flex-wrap: wrap; gap: 12px;
+      margin-bottom: 14px;
+    }
+    .leg-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-secondary); }
+    .leg-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+
+    /* AE Table */
+    .ae-table-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .ae-table-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .ae-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .ae-table thead th {
+      padding: 10px 20px;
+      text-align: left;
+      font-size: 10px; font-weight: 600; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+    }
+    .ae-table thead th:not(:first-child) { text-align: center; }
+    .ae-table tbody td {
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-primary);
+    }
+    .ae-table tbody tr:last-child td { border-bottom: none; }
+    .ae-table tbody tr:hover td { background: rgba(255,255,255,0.02); }
+    .ae-table tbody td:not(:first-child) { text-align: center; color: var(--text-secondary); }
+    .ae-table .total-cell { color: var(--text-primary) !important; font-weight: 500; }
+    .sev-badge {
+      font-size: 10px; font-weight: 500;
+      padding: 2px 8px; border-radius: 20px;
+      border: 1px solid; display: inline-block;
+    }
+    .sev-mild   { color: var(--teal);   border-color: var(--teal);   background: var(--teal-dim); }
+    .sev-mon    { color: var(--amber);  border-color: var(--amber);  background: var(--amber-dim); }
+    .sev-serious{ color: var(--red);    border-color: var(--red);    background: var(--red-dim); }
+
+    /* TFL grid */
+    .tfl-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .tfl-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+    .tfl-card:hover { border-color: var(--border-accent); }
+    .tfl-icon {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px; font-weight: 500;
+      padding: 3px 8px; border-radius: 4px;
+      display: inline-block; margin-bottom: 12px;
+    }
+    .tfl-t  { background: var(--blue-dim);   color: var(--blue);   }
+    .tfl-f  { background: var(--purple-dim); color: var(--purple); }
+    .tfl-l  { background: var(--teal-dim);   color: var(--teal);   }
+    .tfl-number {
+      font-size: 36px; font-weight: 600; line-height: 1;
+      margin-bottom: 4px;
+    }
+    .tfl-t-num  { color: var(--blue);   }
+    .tfl-f-num  { color: var(--purple); }
+    .tfl-l-num  { color: var(--teal);   }
+    .tfl-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 14px; }
+    .tfl-row { display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 6px; }
+    .tfl-row span:first-child { color: var(--text-muted); }
+    .tfl-row span:last-child  { color: var(--text-primary); font-weight: 500; }
+    .tfl-bar { height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow: hidden; margin-top: 12px; }
+    .tfl-bar-fill { height: 100%; border-radius: 2px; transition: width 1s ease; }
+    .tfl-t-bar  { background: var(--blue);   }
+    .tfl-f-bar  { background: var(--purple); }
+    .tfl-l-bar  { background: var(--teal);   }
+
+    /* Enrollment funnel */
+    .funnel-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    /* Site map placeholder */
+    .site-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .site-table td { padding: 9px 0; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+    .site-table tr:last-child td { border-bottom: none; }
+    .site-table td:first-child { color: var(--text-primary); font-weight: 500; }
+    .site-table td:last-child { text-align: right; }
+    .site-bar-wrap { display: flex; align-items: center; gap: 8px; }
+    .site-bar { flex: 1; height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; overflow:hidden; }
+    .site-bar-fill { height: 100%; border-radius: 2px; background: var(--blue); }
+
+    /* Footer */
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      margin-top: 40px;
+    }
+    .footer-left { font-size: 11px; color: var(--text-muted); }
+    .footer-left a { color: var(--blue); text-decoration: none; }
+    .footer-left a:hover { text-decoration: underline; }
+    .footer-right { font-size: 11px; color: var(--text-muted); font-family: 'JetBrains Mono', monospace; }
+
+    @media (max-width: 900px) {
+      .kpi-grid { grid-template-columns: repeat(2,1fr); }
+      .charts-grid, .tfl-grid, .funnel-grid { grid-template-columns: 1fr; }
+      .main { padding: 16px; }
+      .header { padding: 14px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-left">
+    <div class="header-dot"></div>
+    <div>
+      <div class="header-title">Clinical Trial Analytics Dashboard</div>
+      <div class="header-sub">Protocol NV-2024-CT · Phase III RCT · Oncology</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <span class="badge badge-phase">Phase III</span>
+    <span class="badge badge-status">Enrolling</span>
+    <span class="last-updated">Updated: Jun 16, 2026</span>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- KPIs -->
+  <div class="section-eyebrow">Trial overview</div>
+  <div class="kpi-grid">
+    <div class="kpi-card blue">
+      <div class="kpi-label">Total enrolled</div>
+      <div class="kpi-value">1,248</div>
+      <div class="kpi-delta up">↑ 94% of target · 72 remaining</div>
+      <div class="kpi-target"><div class="kpi-target-fill" style="width:94%; background:var(--blue);"></div></div>
+    </div>
+    <div class="kpi-card teal">
+      <div class="kpi-label">Active sites</div>
+      <div class="kpi-value">34</div>
+      <div class="kpi-delta up">↑ 6 new sites this quarter</div>
+      <div class="kpi-target"><div class="kpi-target-fill" style="width:85%; background:var(--teal);"></div></div>
+    </div>
+    <div class="kpi-card amber">
+      <div class="kpi-label">Dropout rate</div>
+      <div class="kpi-value">8.3%</div>
+      <div class="kpi-delta warn">⚠ Target ≤ 8.0% · Monitor closely</div>
+      <div class="kpi-target"><div class="kpi-target-fill" style="width:96%; background:var(--amber);"></div></div>
+    </div>
+    <div class="kpi-card red">
+      <div class="kpi-label">Protocol deviations</div>
+      <div class="kpi-value">47</div>
+      <div class="kpi-delta down">↓ 12 vs last period</div>
+      <div class="kpi-target"><div class="kpi-target-fill" style="width:38%; background:var(--red);"></div></div>
+    </div>
+  </div>
+
+  <!-- Enrollment + Site breakdown -->
+  <div class="section-eyebrow">Enrollment &amp; site performance</div>
+  <div class="funnel-grid">
+    <div class="chart-card">
+      <div class="chart-header">
+        <div>
+          <div class="chart-title">Monthly enrollment — treatment vs placebo</div>
+          <div class="chart-sub">Jan–Jun 2026 · n=1,248 total</div>
+        </div>
+      </div>
+      <div class="legend">
+        <span class="leg-item"><span class="leg-dot" style="background:#4f9cf9"></span>Treatment arm</span>
+        <span class="leg-item"><span class="leg-dot" style="background:#484f58"></span>Placebo arm</span>
+      </div>
+      <div style="position:relative; height:200px;">
+        <canvas id="enrollChart" role="img" aria-label="Monthly enrollment by arm Jan to Jun 2026">Treatment: 68,82,91,104,113,128. Placebo: 65,79,88,99,108,121.</canvas>
+      </div>
+    </div>
+
+    <div class="chart-card">
+      <div class="chart-header">
+        <div>
+          <div class="chart-title">Top enrolling sites</div>
+          <div class="chart-sub">Patients enrolled · all sites</div>
+        </div>
+      </div>
+      <table class="site-table">
+        <tr>
+          <td>USF Health Tampa</td>
+          <td><div class="site-bar-wrap"><div class="site-bar"><div class="site-bar-fill" style="width:100%"></div></div><span>218</span></div></td>
+        </tr>
+        <tr>
+          <td>Mayo Clinic AZ</td>
+          <td><div class="site-bar-wrap"><div class="site-bar"><div class="site-bar-fill" style="width:84%"></div></div><span>183</span></div></td>
+        </tr>
+        <tr>
+          <td>MD Anderson TX</td>
+          <td><div class="site-bar-wrap"><div class="site-bar"><div class="site-bar-fill" style="width:72%"></div></div><span>157</span></div></td>
+        </tr>
+        <tr>
+          <td>Cleveland Clinic</td>
+          <td><div class="site-bar-wrap"><div class="site-bar"><div class="site-bar-fill" style="width:61%"></div></div><span>133</span></div></td>
+        </tr>
+        <tr>
+          <td>Johns Hopkins</td>
+          <td><div class="site-bar-wrap"><div class="site-bar"><div class="site-bar-fill" style="width:54%"></div></div><span>118</span></div></td>
+        </tr>
+        <tr>
+          <td>Stanford Medicine</td>
+          <td><div class="site-bar-wrap"><div class="site-bar"><div class="site-bar-fill" style="width:47%"></div></div><span>103</span></div></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- AE charts -->
+  <div class="section-eyebrow">Adverse events</div>
+  <div class="charts-grid">
+    <div class="chart-card">
+      <div class="chart-header">
+        <div>
+          <div class="chart-title">AE count by system organ class (SOC)</div>
+          <div class="chart-sub">All grades · CTCAE v5.0</div>
+        </div>
+      </div>
+      <div style="position:relative; height:240px;">
+        <canvas id="aeBarChart" role="img" aria-label="Adverse events by SOC: GI 142, Nervous 98, General 87, Respiratory 54, Skin 41, Cardiac 29, Hepatic 22">AE counts by organ class.</canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-header">
+        <div>
+          <div class="chart-title">Grade distribution</div>
+          <div class="chart-sub">CTCAE grades 1–4</div>
+        </div>
+      </div>
+      <div class="legend">
+        <span class="leg-item"><span class="leg-dot" style="background:#56d364"></span>Grade 1</span>
+        <span class="leg-item"><span class="leg-dot" style="background:#f0a732"></span>Grade 2</span>
+        <span class="leg-item"><span class="leg-dot" style="background:#ff7b72"></span>Grade 3</span>
+        <span class="leg-item"><span class="leg-dot" style="background:#f85149"></span>Grade 4</span>
+      </div>
+      <div style="position:relative; height:200px;">
+        <canvas id="gradeDonut" role="img" aria-label="AE grade distribution: Grade 1 49%, Grade 2 30%, Grade 3 15%, Grade 4 6%">Grade 1: 49%, Grade 2: 30%, Grade 3: 15%, Grade 4: 6%.</canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- AE detail table -->
+  <div class="ae-table-card" style="margin-top:12px;">
+    <div class="ae-table-header">
+      <div>
+        <div class="chart-title">Adverse event severity by SOC</div>
+        <div class="chart-sub" style="margin-top:2px; font-size:11px; color:var(--text-muted);">Grades per CTCAE v5.0 · SAE = serious adverse event flag</div>
+      </div>
+    </div>
+    <table class="ae-table">
+      <thead>
+        <tr>
+          <th>System organ class</th>
+          <th>Grade 1</th><th>Grade 2</th><th>Grade 3</th><th>Grade 4</th>
+          <th>Total</th><th>SAE flag</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Gastrointestinal disorders</td><td>61</td><td>48</td><td>27</td><td>6</td><td class="total-cell">142</td><td><span class="sev-badge sev-serious">Serious</span></td></tr>
+        <tr><td>Nervous system disorders</td><td>44</td><td>31</td><td>18</td><td>5</td><td class="total-cell">98</td><td><span class="sev-badge sev-mon">Monitor</span></td></tr>
+        <tr><td>General disorders &amp; admin site</td><td>55</td><td>24</td><td>8</td><td>0</td><td class="total-cell">87</td><td><span class="sev-badge sev-mild">Mild</span></td></tr>
+        <tr><td>Respiratory &amp; thoracic</td><td>22</td><td>19</td><td>10</td><td>3</td><td class="total-cell">54</td><td><span class="sev-badge sev-mon">Monitor</span></td></tr>
+        <tr><td>Skin &amp; subcutaneous tissue</td><td>30</td><td>9</td><td>2</td><td>0</td><td class="total-cell">41</td><td><span class="sev-badge sev-mild">Mild</span></td></tr>
+        <tr><td>Cardiac disorders</td><td>14</td><td>10</td><td>4</td><td>1</td><td class="total-cell">29</td><td><span class="sev-badge sev-serious">Serious</span></td></tr>
+        <tr><td>Hepatobiliary disorders</td><td>12</td><td>7</td><td>3</td><td>0</td><td class="total-cell">22</td><td><span class="sev-badge sev-mon">Monitor</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TFL tracker -->
+  <div class="section-eyebrow">TFL output tracker</div>
+  <div class="tfl-grid">
+    <div class="tfl-card">
+      <span class="tfl-icon tfl-t">TABLE</span>
+      <div class="tfl-number tfl-t-num">84</div>
+      <div class="tfl-label">Tables generated</div>
+      <div class="tfl-row"><span>Validated</span><span>71</span></div>
+      <div class="tfl-row"><span>In QC review</span><span>9</span></div>
+      <div class="tfl-row"><span>Pending</span><span>4</span></div>
+      <div class="tfl-bar"><div class="tfl-bar-fill tfl-t-bar" style="width:85%"></div></div>
+    </div>
+    <div class="tfl-card">
+      <span class="tfl-icon tfl-f">FIGURE</span>
+      <div class="tfl-number tfl-f-num">36</div>
+      <div class="tfl-label">Figures generated</div>
+      <div class="tfl-row"><span>Validated</span><span>29</span></div>
+      <div class="tfl-row"><span>In QC review</span><span>5</span></div>
+      <div class="tfl-row"><span>Pending</span><span>2</span></div>
+      <div class="tfl-bar"><div class="tfl-bar-fill tfl-f-bar" style="width:80%"></div></div>
+    </div>
+    <div class="tfl-card">
+      <span class="tfl-icon tfl-l">LISTING</span>
+      <div class="tfl-number tfl-l-num">52</div>
+      <div class="tfl-label">Listings generated</div>
+      <div class="tfl-row"><span>Validated</span><span>48</span></div>
+      <div class="tfl-row"><span>In QC review</span><span>3</span></div>
+      <div class="tfl-row"><span>Pending</span><span>1</span></div>
+      <div class="tfl-bar"><div class="tfl-bar-fill tfl-l-bar" style="width:92%"></div></div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-left">
+    Built by <a href="https://linkedin.com/in/namratha-vardhinedi-11079420a" target="_blank">Namratha Vardhineni</a> ·
+    <a href="https://namratharao22.github.io/-Portfolio.Nv/" target="_blank">Portfolio</a> ·
+    <a href="https://github.com/Namratharao22" target="_blank">GitHub</a>
+  </div>
+  <div class="footer-right">Clinical Trial Analytics · Protocol NV-2024-CT</div>
+</footer>
+
+<script>
+  const gridColor = 'rgba(255,255,255,0.05)';
+  const tickColor = '#484f58';
+
+  // Enrollment chart
+  new Chart(document.getElementById('enrollChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Jan','Feb','Mar','Apr','May','Jun'],
+      datasets: [
+        {
+          label: 'Treatment arm',
+          data: [68,82,91,104,113,128],
+          backgroundColor: '#4f9cf9',
+          borderRadius: 4, borderSkipped: false
+        },
+        {
+          label: 'Placebo arm',
+          data: [65,79,88,99,108,121],
+          backgroundColor: '#2a3140',
+          borderRadius: 4, borderSkipped: false
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: tickColor, font: { size: 11 } } },
+        y: { grid: { color: gridColor }, ticks: { color: tickColor, font: { size: 11 } } }
+      }
+    }
+  });
+
+  // AE bar chart
+  new Chart(document.getElementById('aeBarChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Gastrointestinal','Nervous system','General disorders','Respiratory','Skin & subcut.','Cardiac','Hepatobiliary'],
+      datasets: [{
+        data: [142, 98, 87, 54, 41, 29, 22],
+        backgroundColor: ['#f85149','#a371f7','#8b949e','#f0a732','#3fd4a0','#ff7b72','#4f9cf9'],
+        borderRadius: 4, borderSkipped: false
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: gridColor }, ticks: { color: tickColor, font: { size: 11 } } },
+        y: { grid: { display: false }, ticks: { color: tickColor, font: { size: 11 } }, autoSkip: false }
+      }
+    }
+  });
+
+  // Grade donut
+  new Chart(document.getElementById('gradeDonut'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Grade 1','Grade 2','Grade 3','Grade 4'],
+      datasets: [{
+        data: [49, 30, 15, 6],
+        backgroundColor: ['#56d364','#f0a732','#ff7b72','#f85149'],
+        borderColor: '#161b22',
+        borderWidth: 3
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      cutout: '68%',
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: { label: ctx => ` ${ctx.label}: ${ctx.parsed}%` }
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>

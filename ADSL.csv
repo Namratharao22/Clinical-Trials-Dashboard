@@ -1,0 +1,201 @@
+USUBJID,SITE,ARM,AGE,SEX,RACE,ENROLL_MONTH,ENROLL_YEAR,STATUS,PROTOCOL,PHASE
+NV2024-0001,Stanford Medicine,Treatment,57,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0002,Stanford Medicine,Treatment,50,M,Black or African American,1,2026,Active,NV-2024-CT,III
+NV2024-0003,USF Health Tampa,Treatment,59,M,Black or African American,6,2026,Completed,NV-2024-CT,III
+NV2024-0004,Stanford Medicine,Placebo,70,F,Asian,1,2026,Completed,NV-2024-CT,III
+NV2024-0005,Mayo Clinic AZ,Placebo,49,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0006,USF Health Tampa,Treatment,49,F,Asian,5,2026,Completed,NV-2024-CT,III
+NV2024-0007,MD Anderson TX,Treatment,70,M,Other,4,2026,Active,NV-2024-CT,III
+NV2024-0008,USF Health Tampa,Placebo,61,F,Black or African American,6,2026,Active,NV-2024-CT,III
+NV2024-0009,USF Health Tampa,Treatment,46,F,Other,2,2026,Active,NV-2024-CT,III
+NV2024-0010,USF Health Tampa,Placebo,58,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0011,Mayo Clinic AZ,Placebo,46,M,Black or African American,2,2026,Active,NV-2024-CT,III
+NV2024-0012,Johns Hopkins,Treatment,46,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0013,Stanford Medicine,Treatment,54,M,White,1,2026,Active,NV-2024-CT,III
+NV2024-0014,MD Anderson TX,Placebo,29,M,Hispanic or Latino,5,2026,Completed,NV-2024-CT,III
+NV2024-0015,Stanford Medicine,Placebo,31,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0016,Cleveland Clinic,Treatment,45,M,Asian,5,2026,Completed,NV-2024-CT,III
+NV2024-0017,MD Anderson TX,Placebo,39,F,White,2,2026,Discontinued,NV-2024-CT,III
+NV2024-0018,Johns Hopkins,Placebo,55,M,Asian,2,2026,Completed,NV-2024-CT,III
+NV2024-0019,Stanford Medicine,Treatment,41,F,Black or African American,4,2026,Active,NV-2024-CT,III
+NV2024-0020,Cleveland Clinic,Placebo,35,M,Black or African American,1,2026,Completed,NV-2024-CT,III
+NV2024-0021,Stanford Medicine,Placebo,69,F,White,4,2026,Active,NV-2024-CT,III
+NV2024-0022,Mayo Clinic AZ,Placebo,49,F,Other,2,2026,Completed,NV-2024-CT,III
+NV2024-0023,Johns Hopkins,Treatment,52,F,Asian,5,2026,Discontinued,NV-2024-CT,III
+NV2024-0024,Johns Hopkins,Treatment,34,M,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0025,USF Health Tampa,Placebo,45,M,Hispanic or Latino,3,2026,Completed,NV-2024-CT,III
+NV2024-0026,Mayo Clinic AZ,Treatment,53,M,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0027,USF Health Tampa,Treatment,38,F,Hispanic or Latino,2,2026,Completed,NV-2024-CT,III
+NV2024-0028,MD Anderson TX,Placebo,56,M,Black or African American,4,2026,Screening Failure,NV-2024-CT,III
+NV2024-0029,Stanford Medicine,Placebo,44,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0030,USF Health Tampa,Placebo,48,M,Black or African American,1,2026,Completed,NV-2024-CT,III
+NV2024-0031,USF Health Tampa,Treatment,44,M,Asian,1,2026,Completed,NV-2024-CT,III
+NV2024-0032,Johns Hopkins,Treatment,74,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0033,Stanford Medicine,Placebo,51,F,Asian,2,2026,Completed,NV-2024-CT,III
+NV2024-0034,USF Health Tampa,Treatment,39,F,White,4,2026,Active,NV-2024-CT,III
+NV2024-0035,Stanford Medicine,Treatment,61,M,White,6,2026,Active,NV-2024-CT,III
+NV2024-0036,MD Anderson TX,Treatment,37,M,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0037,Cleveland Clinic,Treatment,54,M,Hispanic or Latino,1,2026,Completed,NV-2024-CT,III
+NV2024-0038,Cleveland Clinic,Treatment,28,M,Hispanic or Latino,2,2026,Completed,NV-2024-CT,III
+NV2024-0039,Mayo Clinic AZ,Placebo,36,M,Asian,1,2026,Completed,NV-2024-CT,III
+NV2024-0040,Mayo Clinic AZ,Placebo,54,F,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0041,MD Anderson TX,Placebo,60,F,White,3,2026,Active,NV-2024-CT,III
+NV2024-0042,Mayo Clinic AZ,Treatment,54,M,Asian,1,2026,Completed,NV-2024-CT,III
+NV2024-0043,USF Health Tampa,Placebo,50,M,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0044,USF Health Tampa,Treatment,48,M,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0045,Cleveland Clinic,Treatment,34,M,Black or African American,1,2026,Discontinued,NV-2024-CT,III
+NV2024-0046,Johns Hopkins,Treatment,43,F,Hispanic or Latino,2,2026,Completed,NV-2024-CT,III
+NV2024-0047,Stanford Medicine,Placebo,46,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0048,MD Anderson TX,Placebo,64,M,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0049,Johns Hopkins,Treatment,56,M,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0050,MD Anderson TX,Treatment,30,F,White,4,2026,Discontinued,NV-2024-CT,III
+NV2024-0051,Johns Hopkins,Placebo,55,M,Black or African American,5,2026,Completed,NV-2024-CT,III
+NV2024-0052,MD Anderson TX,Treatment,47,M,White,1,2026,Discontinued,NV-2024-CT,III
+NV2024-0053,Stanford Medicine,Treatment,43,M,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0054,Stanford Medicine,Placebo,59,F,Hispanic or Latino,1,2026,Completed,NV-2024-CT,III
+NV2024-0055,USF Health Tampa,Placebo,64,M,White,2,2026,Active,NV-2024-CT,III
+NV2024-0056,Stanford Medicine,Placebo,63,F,Black or African American,4,2026,Completed,NV-2024-CT,III
+NV2024-0057,Johns Hopkins,Treatment,41,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0058,Johns Hopkins,Treatment,48,M,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0059,MD Anderson TX,Treatment,55,M,White,5,2026,Active,NV-2024-CT,III
+NV2024-0060,Cleveland Clinic,Treatment,63,M,Asian,2,2026,Discontinued,NV-2024-CT,III
+NV2024-0061,Cleveland Clinic,Treatment,46,F,Asian,4,2026,Completed,NV-2024-CT,III
+NV2024-0062,Stanford Medicine,Treatment,49,M,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0063,Cleveland Clinic,Treatment,38,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0064,Mayo Clinic AZ,Treatment,37,F,White,1,2026,Active,NV-2024-CT,III
+NV2024-0065,MD Anderson TX,Placebo,61,F,Black or African American,5,2026,Active,NV-2024-CT,III
+NV2024-0066,MD Anderson TX,Treatment,68,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0067,USF Health Tampa,Treatment,51,F,Black or African American,3,2026,Completed,NV-2024-CT,III
+NV2024-0068,Cleveland Clinic,Treatment,64,M,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0069,Cleveland Clinic,Treatment,56,M,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0070,Stanford Medicine,Placebo,44,M,Black or African American,3,2026,Active,NV-2024-CT,III
+NV2024-0071,Johns Hopkins,Placebo,56,F,White,3,2026,Active,NV-2024-CT,III
+NV2024-0072,Johns Hopkins,Treatment,70,F,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0073,Johns Hopkins,Placebo,51,M,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0074,Cleveland Clinic,Placebo,70,F,Black or African American,5,2026,Completed,NV-2024-CT,III
+NV2024-0075,Cleveland Clinic,Treatment,20,F,White,6,2026,Active,NV-2024-CT,III
+NV2024-0076,Johns Hopkins,Placebo,61,M,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0077,Mayo Clinic AZ,Treatment,53,M,Other,5,2026,Completed,NV-2024-CT,III
+NV2024-0078,USF Health Tampa,Placebo,48,M,Black or African American,4,2026,Completed,NV-2024-CT,III
+NV2024-0079,Cleveland Clinic,Placebo,53,M,Hispanic or Latino,1,2026,Completed,NV-2024-CT,III
+NV2024-0080,Cleveland Clinic,Treatment,28,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0081,USF Health Tampa,Placebo,49,F,Black or African American,5,2026,Completed,NV-2024-CT,III
+NV2024-0082,Johns Hopkins,Placebo,56,F,Black or African American,6,2026,Screening Failure,NV-2024-CT,III
+NV2024-0083,Johns Hopkins,Placebo,69,F,Hispanic or Latino,6,2026,Active,NV-2024-CT,III
+NV2024-0084,Cleveland Clinic,Placebo,45,M,Asian,3,2026,Completed,NV-2024-CT,III
+NV2024-0085,Johns Hopkins,Placebo,42,F,White,6,2026,Active,NV-2024-CT,III
+NV2024-0086,MD Anderson TX,Treatment,45,F,Hispanic or Latino,1,2026,Completed,NV-2024-CT,III
+NV2024-0087,Mayo Clinic AZ,Treatment,62,M,Black or African American,1,2026,Completed,NV-2024-CT,III
+NV2024-0088,Cleveland Clinic,Placebo,55,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0089,Cleveland Clinic,Placebo,45,M,Asian,5,2026,Discontinued,NV-2024-CT,III
+NV2024-0090,Cleveland Clinic,Placebo,58,F,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0091,Cleveland Clinic,Treatment,53,F,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0092,Cleveland Clinic,Placebo,63,F,Black or African American,4,2026,Active,NV-2024-CT,III
+NV2024-0093,Mayo Clinic AZ,Treatment,43,M,White,4,2026,Discontinued,NV-2024-CT,III
+NV2024-0094,Mayo Clinic AZ,Placebo,48,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0095,Cleveland Clinic,Placebo,47,F,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0096,MD Anderson TX,Treatment,34,M,Other,3,2026,Completed,NV-2024-CT,III
+NV2024-0097,Mayo Clinic AZ,Treatment,55,M,Asian,2,2026,Active,NV-2024-CT,III
+NV2024-0098,Mayo Clinic AZ,Treatment,55,M,White,6,2026,Active,NV-2024-CT,III
+NV2024-0099,USF Health Tampa,Treatment,52,F,Asian,2,2026,Completed,NV-2024-CT,III
+NV2024-0100,Johns Hopkins,Treatment,49,M,Hispanic or Latino,1,2026,Active,NV-2024-CT,III
+NV2024-0101,Johns Hopkins,Treatment,35,F,White,6,2026,Discontinued,NV-2024-CT,III
+NV2024-0102,Mayo Clinic AZ,Treatment,46,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0103,Stanford Medicine,Treatment,47,M,White,4,2026,Active,NV-2024-CT,III
+NV2024-0104,Stanford Medicine,Placebo,42,F,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0105,Cleveland Clinic,Treatment,50,F,Black or African American,4,2026,Completed,NV-2024-CT,III
+NV2024-0106,Stanford Medicine,Treatment,56,F,Black or African American,5,2026,Completed,NV-2024-CT,III
+NV2024-0107,Cleveland Clinic,Placebo,74,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0108,USF Health Tampa,Placebo,54,M,Asian,5,2026,Discontinued,NV-2024-CT,III
+NV2024-0109,Johns Hopkins,Placebo,55,F,Asian,2,2026,Completed,NV-2024-CT,III
+NV2024-0110,Cleveland Clinic,Treatment,51,F,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0111,Stanford Medicine,Placebo,28,M,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0112,Cleveland Clinic,Placebo,51,M,Black or African American,6,2026,Completed,NV-2024-CT,III
+NV2024-0113,Stanford Medicine,Placebo,52,M,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0114,Cleveland Clinic,Treatment,80,F,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0115,MD Anderson TX,Placebo,49,F,White,4,2026,Screening Failure,NV-2024-CT,III
+NV2024-0116,MD Anderson TX,Placebo,55,M,Black or African American,3,2026,Completed,NV-2024-CT,III
+NV2024-0117,USF Health Tampa,Treatment,51,F,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0118,Johns Hopkins,Placebo,37,M,White,3,2026,Screening Failure,NV-2024-CT,III
+NV2024-0119,Mayo Clinic AZ,Placebo,65,M,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0120,Johns Hopkins,Placebo,61,M,Black or African American,4,2026,Active,NV-2024-CT,III
+NV2024-0121,USF Health Tampa,Treatment,61,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0122,Mayo Clinic AZ,Treatment,41,F,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0123,Cleveland Clinic,Placebo,68,M,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0124,MD Anderson TX,Treatment,35,M,Black or African American,4,2026,Screening Failure,NV-2024-CT,III
+NV2024-0125,Johns Hopkins,Treatment,59,F,White,4,2026,Active,NV-2024-CT,III
+NV2024-0126,MD Anderson TX,Placebo,78,M,Black or African American,6,2026,Completed,NV-2024-CT,III
+NV2024-0127,USF Health Tampa,Treatment,40,F,Black or African American,2,2026,Active,NV-2024-CT,III
+NV2024-0128,Mayo Clinic AZ,Treatment,45,M,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0129,Stanford Medicine,Placebo,53,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0130,Stanford Medicine,Placebo,45,M,Hispanic or Latino,6,2026,Completed,NV-2024-CT,III
+NV2024-0131,Johns Hopkins,Treatment,33,M,Black or African American,3,2026,Completed,NV-2024-CT,III
+NV2024-0132,Mayo Clinic AZ,Treatment,52,F,Black or African American,5,2026,Completed,NV-2024-CT,III
+NV2024-0133,MD Anderson TX,Placebo,39,F,Black or African American,3,2026,Completed,NV-2024-CT,III
+NV2024-0134,Johns Hopkins,Placebo,57,M,Hispanic or Latino,6,2026,Completed,NV-2024-CT,III
+NV2024-0135,MD Anderson TX,Placebo,40,M,Hispanic or Latino,5,2026,Completed,NV-2024-CT,III
+NV2024-0136,Johns Hopkins,Treatment,70,F,Black or African American,2,2026,Screening Failure,NV-2024-CT,III
+NV2024-0137,Cleveland Clinic,Placebo,42,M,Other,4,2026,Discontinued,NV-2024-CT,III
+NV2024-0138,Stanford Medicine,Placebo,48,F,White,3,2026,Screening Failure,NV-2024-CT,III
+NV2024-0139,MD Anderson TX,Treatment,61,F,White,4,2026,Active,NV-2024-CT,III
+NV2024-0140,MD Anderson TX,Placebo,37,M,White,3,2026,Active,NV-2024-CT,III
+NV2024-0141,MD Anderson TX,Placebo,54,F,Asian,1,2026,Completed,NV-2024-CT,III
+NV2024-0142,Stanford Medicine,Placebo,67,M,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0143,Cleveland Clinic,Placebo,32,M,White,2,2026,Active,NV-2024-CT,III
+NV2024-0144,MD Anderson TX,Placebo,54,F,White,6,2026,Discontinued,NV-2024-CT,III
+NV2024-0145,Johns Hopkins,Treatment,55,F,Black or African American,5,2026,Active,NV-2024-CT,III
+NV2024-0146,Cleveland Clinic,Treatment,61,M,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0147,Stanford Medicine,Treatment,37,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0148,Cleveland Clinic,Placebo,36,M,White,2,2026,Screening Failure,NV-2024-CT,III
+NV2024-0149,Cleveland Clinic,Treatment,58,M,Asian,3,2026,Discontinued,NV-2024-CT,III
+NV2024-0150,Cleveland Clinic,Placebo,55,F,Asian,3,2026,Discontinued,NV-2024-CT,III
+NV2024-0151,Stanford Medicine,Placebo,55,F,Asian,4,2026,Active,NV-2024-CT,III
+NV2024-0152,Johns Hopkins,Placebo,56,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0153,Mayo Clinic AZ,Treatment,43,M,Asian,4,2026,Completed,NV-2024-CT,III
+NV2024-0154,USF Health Tampa,Placebo,54,F,White,6,2026,Active,NV-2024-CT,III
+NV2024-0155,Stanford Medicine,Treatment,55,M,White,5,2026,Completed,NV-2024-CT,III
+NV2024-0156,MD Anderson TX,Treatment,43,F,White,4,2026,Discontinued,NV-2024-CT,III
+NV2024-0157,USF Health Tampa,Treatment,74,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0158,MD Anderson TX,Placebo,57,F,Asian,5,2026,Active,NV-2024-CT,III
+NV2024-0159,Cleveland Clinic,Placebo,37,F,Hispanic or Latino,1,2026,Active,NV-2024-CT,III
+NV2024-0160,Johns Hopkins,Treatment,59,F,Other,6,2026,Completed,NV-2024-CT,III
+NV2024-0161,USF Health Tampa,Placebo,40,M,White,6,2026,Screening Failure,NV-2024-CT,III
+NV2024-0162,MD Anderson TX,Treatment,61,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0163,Cleveland Clinic,Treatment,65,F,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0164,Mayo Clinic AZ,Treatment,42,F,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0165,Cleveland Clinic,Treatment,63,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0166,USF Health Tampa,Placebo,56,M,White,3,2026,Discontinued,NV-2024-CT,III
+NV2024-0167,Johns Hopkins,Placebo,61,F,Black or African American,4,2026,Active,NV-2024-CT,III
+NV2024-0168,MD Anderson TX,Treatment,74,F,White,4,2026,Screening Failure,NV-2024-CT,III
+NV2024-0169,Johns Hopkins,Placebo,49,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0170,Cleveland Clinic,Placebo,42,M,Hispanic or Latino,6,2026,Completed,NV-2024-CT,III
+NV2024-0171,Cleveland Clinic,Placebo,41,M,Black or African American,3,2026,Active,NV-2024-CT,III
+NV2024-0172,Mayo Clinic AZ,Treatment,42,M,Black or African American,6,2026,Active,NV-2024-CT,III
+NV2024-0173,Stanford Medicine,Treatment,51,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0174,Stanford Medicine,Treatment,56,F,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0175,Mayo Clinic AZ,Treatment,55,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0176,Mayo Clinic AZ,Placebo,61,F,Hispanic or Latino,3,2026,Discontinued,NV-2024-CT,III
+NV2024-0177,Stanford Medicine,Placebo,52,F,Hispanic or Latino,2,2026,Active,NV-2024-CT,III
+NV2024-0178,Mayo Clinic AZ,Placebo,69,F,White,4,2026,Screening Failure,NV-2024-CT,III
+NV2024-0179,USF Health Tampa,Placebo,48,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0180,Stanford Medicine,Placebo,80,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0181,Cleveland Clinic,Treatment,59,F,Hispanic or Latino,2,2026,Completed,NV-2024-CT,III
+NV2024-0182,Stanford Medicine,Treatment,41,F,Hispanic or Latino,3,2026,Active,NV-2024-CT,III
+NV2024-0183,Stanford Medicine,Placebo,39,M,Hispanic or Latino,3,2026,Completed,NV-2024-CT,III
+NV2024-0184,Cleveland Clinic,Treatment,57,M,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0185,Stanford Medicine,Placebo,49,M,Hispanic or Latino,6,2026,Completed,NV-2024-CT,III
+NV2024-0186,USF Health Tampa,Placebo,60,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0187,Mayo Clinic AZ,Placebo,57,M,Asian,1,2026,Completed,NV-2024-CT,III
+NV2024-0188,Stanford Medicine,Placebo,51,F,White,3,2026,Completed,NV-2024-CT,III
+NV2024-0189,Mayo Clinic AZ,Treatment,41,F,White,2,2026,Discontinued,NV-2024-CT,III
+NV2024-0190,Stanford Medicine,Treatment,33,F,White,2,2026,Completed,NV-2024-CT,III
+NV2024-0191,Johns Hopkins,Treatment,46,M,Black or African American,2,2026,Completed,NV-2024-CT,III
+NV2024-0192,MD Anderson TX,Treatment,62,M,White,2,2026,Active,NV-2024-CT,III
+NV2024-0193,Mayo Clinic AZ,Placebo,54,M,Black or African American,1,2026,Active,NV-2024-CT,III
+NV2024-0194,Mayo Clinic AZ,Treatment,37,M,Black or African American,1,2026,Completed,NV-2024-CT,III
+NV2024-0195,Mayo Clinic AZ,Placebo,54,F,White,6,2026,Completed,NV-2024-CT,III
+NV2024-0196,USF Health Tampa,Placebo,56,F,White,1,2026,Completed,NV-2024-CT,III
+NV2024-0197,Cleveland Clinic,Treatment,41,M,Black or African American,6,2026,Discontinued,NV-2024-CT,III
+NV2024-0198,Johns Hopkins,Placebo,53,M,White,4,2026,Completed,NV-2024-CT,III
+NV2024-0199,Cleveland Clinic,Placebo,52,F,Black or African American,4,2026,Active,NV-2024-CT,III
+NV2024-0200,USF Health Tampa,Treatment,38,M,White,3,2026,Completed,NV-2024-CT,III

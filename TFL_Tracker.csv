@@ -1,0 +1,173 @@
+TFL_ID,TYPE,TITLE,PROGRAM,STATUS,VALIDATED_BY,QC_BY,DOMAIN,PROTOCOL
+T001,Table,Demographics — Table 1,t_001.sas,Pending,,,ADLB,NV-2024-CT
+T002,Table,Disposition — Table 2,t_002.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T003,Table,AE Summary — Table 3,t_003.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T004,Table,AE by SOC and Grade — Table 4,t_004.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T005,Table,Labs Abnormalities — Table 5,t_005.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T006,Table,Vitals — Table 6,t_006.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T007,Table,Efficacy Primary — Table 7,t_007.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T008,Table,PK Summary — Table 8,t_008.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T009,Table,Exposure Summary — Table 9,t_009.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T010,Table,Concomitant Meds — Table 10,t_010.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T011,Table,Demographics — Table 11,t_011.sas,In QC Review,,,ADAE,NV-2024-CT
+T012,Table,Disposition — Table 12,t_012.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T013,Table,AE Summary — Table 13,t_013.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T014,Table,AE by SOC and Grade — Table 14,t_014.sas,In QC Review,,,ADEFF,NV-2024-CT
+T015,Table,Labs Abnormalities — Table 15,t_015.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T016,Table,Vitals — Table 16,t_016.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T017,Table,Efficacy Primary — Table 17,t_017.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T018,Table,PK Summary — Table 18,t_018.sas,In QC Review,,,ADPK,NV-2024-CT
+T019,Table,Exposure Summary — Table 19,t_019.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T020,Table,Concomitant Meds — Table 20,t_020.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T021,Table,Demographics — Table 21,t_021.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T022,Table,Disposition — Table 22,t_022.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T023,Table,AE Summary — Table 23,t_023.sas,In QC Review,,,ADLB,NV-2024-CT
+T024,Table,AE by SOC and Grade — Table 24,t_024.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T025,Table,Labs Abnormalities — Table 25,t_025.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T026,Table,Vitals — Table 26,t_026.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T027,Table,Efficacy Primary — Table 27,t_027.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T028,Table,PK Summary — Table 28,t_028.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T029,Table,Exposure Summary — Table 29,t_029.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T030,Table,Concomitant Meds — Table 30,t_030.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T031,Table,Demographics — Table 31,t_031.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T032,Table,Disposition — Table 32,t_032.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T033,Table,AE Summary — Table 33,t_033.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T034,Table,AE by SOC and Grade — Table 34,t_034.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T035,Table,Labs Abnormalities — Table 35,t_035.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T036,Table,Vitals — Table 36,t_036.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T037,Table,Efficacy Primary — Table 37,t_037.sas,In QC Review,,,ADEFF,NV-2024-CT
+T038,Table,PK Summary — Table 38,t_038.sas,Pending,,,ADLB,NV-2024-CT
+T039,Table,Exposure Summary — Table 39,t_039.sas,Pending,,,ADAE,NV-2024-CT
+T040,Table,Concomitant Meds — Table 40,t_040.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T041,Table,Demographics — Table 41,t_041.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T042,Table,Disposition — Table 42,t_042.sas,In QC Review,,,ADPK,NV-2024-CT
+T043,Table,AE Summary — Table 43,t_043.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T044,Table,AE by SOC and Grade — Table 44,t_044.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T045,Table,Labs Abnormalities — Table 45,t_045.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T046,Table,Vitals — Table 46,t_046.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T047,Table,Efficacy Primary — Table 47,t_047.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T048,Table,PK Summary — Table 48,t_048.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T049,Table,Exposure Summary — Table 49,t_049.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T050,Table,Concomitant Meds — Table 50,t_050.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T051,Table,Demographics — Table 51,t_051.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T052,Table,Disposition — Table 52,t_052.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T053,Table,AE Summary — Table 53,t_053.sas,In QC Review,,,ADSL,NV-2024-CT
+T054,Table,AE by SOC and Grade — Table 54,t_054.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T055,Table,Labs Abnormalities — Table 55,t_055.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T056,Table,Vitals — Table 56,t_056.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T057,Table,Efficacy Primary — Table 57,t_057.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T058,Table,PK Summary — Table 58,t_058.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T059,Table,Exposure Summary — Table 59,t_059.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T060,Table,Concomitant Meds — Table 60,t_060.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T061,Table,Demographics — Table 61,t_061.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T062,Table,Disposition — Table 62,t_062.sas,Pending,,,ADLB,NV-2024-CT
+T063,Table,AE Summary — Table 63,t_063.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T064,Table,AE by SOC and Grade — Table 64,t_064.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T065,Table,Labs Abnormalities — Table 65,t_065.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T066,Table,Vitals — Table 66,t_066.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T067,Table,Efficacy Primary — Table 67,t_067.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T068,Table,PK Summary — Table 68,t_068.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T069,Table,Exposure Summary — Table 69,t_069.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T070,Table,Concomitant Meds — Table 70,t_070.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T071,Table,Demographics — Table 71,t_071.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+T072,Table,Disposition — Table 72,t_072.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T073,Table,AE Summary — Table 73,t_073.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T074,Table,AE by SOC and Grade — Table 74,t_074.sas,In QC Review,,,ADAE,NV-2024-CT
+T075,Table,Labs Abnormalities — Table 75,t_075.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T076,Table,Vitals — Table 76,t_076.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T077,Table,Efficacy Primary — Table 77,t_077.sas,Pending,,,ADPK,NV-2024-CT
+T078,Table,PK Summary — Table 78,t_078.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T079,Table,Exposure Summary — Table 79,t_079.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+T080,Table,Concomitant Meds — Table 80,t_080.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+T081,Table,Demographics — Table 81,t_081.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T082,Table,Disposition — Table 82,t_082.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+T083,Table,AE Summary — Table 83,t_083.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+T084,Table,AE by SOC and Grade — Table 84,t_084.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F085,Figure,Enrollment Trend — Figure 1,f_001.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+F086,Figure,KM Survival Curve — Figure 2,f_002.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F087,Figure,AE Waterfall — Figure 3,f_003.sas,In QC Review,,,ADSL,NV-2024-CT
+F088,Figure,Forest Plot — Figure 4,f_004.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+F089,Figure,PK Profile — Figure 5,f_005.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+F090,Figure,Biomarker Correlation — Figure 6,f_006.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+F091,Figure,Box Plot Efficacy — Figure 7,f_007.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+F092,Figure,Swimmer Plot — Figure 8,f_008.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+F093,Figure,Enrollment Trend — Figure 9,f_009.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F094,Figure,KM Survival Curve — Figure 10,f_010.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+F095,Figure,AE Waterfall — Figure 11,f_011.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F096,Figure,Forest Plot — Figure 12,f_012.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+F097,Figure,PK Profile — Figure 13,f_013.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F098,Figure,Biomarker Correlation — Figure 14,f_014.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+F099,Figure,Box Plot Efficacy — Figure 15,f_015.sas,In QC Review,,,ADEFF,NV-2024-CT
+F100,Figure,Swimmer Plot — Figure 16,f_016.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F101,Figure,Enrollment Trend — Figure 17,f_017.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+F102,Figure,KM Survival Curve — Figure 18,f_018.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+F103,Figure,AE Waterfall — Figure 19,f_019.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F104,Figure,Forest Plot — Figure 20,f_020.sas,In QC Review,,,ADSL,NV-2024-CT
+F105,Figure,PK Profile — Figure 21,f_021.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+F106,Figure,Biomarker Correlation — Figure 22,f_022.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+F107,Figure,Box Plot Efficacy — Figure 23,f_023.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F108,Figure,Swimmer Plot — Figure 24,f_024.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+F109,Figure,Enrollment Trend — Figure 25,f_025.sas,In QC Review,,,ADSL,NV-2024-CT
+F110,Figure,KM Survival Curve — Figure 26,f_026.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F111,Figure,AE Waterfall — Figure 27,f_027.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+F112,Figure,Forest Plot — Figure 28,f_028.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+F113,Figure,PK Profile — Figure 29,f_029.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F114,Figure,Biomarker Correlation — Figure 30,f_030.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F115,Figure,Box Plot Efficacy — Figure 31,f_031.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F116,Figure,Swimmer Plot — Figure 32,f_032.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+F117,Figure,Enrollment Trend — Figure 33,f_033.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+F118,Figure,KM Survival Curve — Figure 34,f_034.sas,Pending,,,ADAE,NV-2024-CT
+F119,Figure,AE Waterfall — Figure 35,f_035.sas,Pending,,,ADEFF,NV-2024-CT
+F120,Figure,Forest Plot — Figure 36,f_036.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+L121,Listing,Subject Disposition — Listing 1,l_001.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L122,Listing,Protocol Deviations — Listing 2,l_002.sas,In QC Review,,,ADEFF,NV-2024-CT
+L123,Listing,SAE Listing — Listing 3,l_003.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L124,Listing,Lab Abnormalities — Listing 4,l_004.sas,In QC Review,,,ADLB,NV-2024-CT
+L125,Listing,Vital Signs — Listing 5,l_005.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L126,Listing,Discontinued Subjects — Listing 6,l_006.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L127,Listing,Dose Modifications — Listing 7,l_007.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+L128,Listing,Subject Disposition — Listing 8,l_008.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L129,Listing,Protocol Deviations — Listing 9,l_009.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L130,Listing,SAE Listing — Listing 10,l_010.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L131,Listing,Lab Abnormalities — Listing 11,l_011.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L132,Listing,Vital Signs — Listing 12,l_012.sas,Pending,,,ADEFF,NV-2024-CT
+L133,Listing,Discontinued Subjects — Listing 13,l_013.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L134,Listing,Dose Modifications — Listing 14,l_014.sas,In QC Review,,,ADAE,NV-2024-CT
+L135,Listing,Subject Disposition — Listing 15,l_015.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+L136,Listing,Protocol Deviations — Listing 16,l_016.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L137,Listing,SAE Listing — Listing 17,l_017.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L138,Listing,Lab Abnormalities — Listing 18,l_018.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L139,Listing,Vital Signs — Listing 19,l_019.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L140,Listing,Discontinued Subjects — Listing 20,l_020.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L141,Listing,Dose Modifications — Listing 21,l_021.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L142,Listing,Subject Disposition — Listing 22,l_022.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L143,Listing,Protocol Deviations — Listing 23,l_023.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+L144,Listing,SAE Listing — Listing 24,l_024.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L145,Listing,Lab Abnormalities — Listing 25,l_025.sas,Pending,,,ADAE,NV-2024-CT
+L146,Listing,Vital Signs — Listing 26,l_026.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L147,Listing,Discontinued Subjects — Listing 27,l_027.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L148,Listing,Dose Modifications — Listing 28,l_028.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L149,Listing,Subject Disposition — Listing 29,l_029.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L150,Listing,Protocol Deviations — Listing 30,l_030.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L151,Listing,SAE Listing — Listing 31,l_031.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L152,Listing,Lab Abnormalities — Listing 32,l_032.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+L153,Listing,Vital Signs — Listing 33,l_033.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+L154,Listing,Discontinued Subjects — Listing 34,l_034.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L155,Listing,Dose Modifications — Listing 35,l_035.sas,Validated,NV,Programmer2,ADSL,NV-2024-CT
+L156,Listing,Subject Disposition — Listing 36,l_036.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+L157,Listing,Protocol Deviations — Listing 37,l_037.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L158,Listing,SAE Listing — Listing 38,l_038.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L159,Listing,Lab Abnormalities — Listing 39,l_039.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L160,Listing,Vital Signs — Listing 40,l_040.sas,In QC Review,,,ADSL,NV-2024-CT
+L161,Listing,Discontinued Subjects — Listing 41,l_041.sas,Validated,NV,Programmer2,ADAE,NV-2024-CT
+L162,Listing,Dose Modifications — Listing 42,l_042.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L163,Listing,Subject Disposition — Listing 43,l_043.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L164,Listing,Protocol Deviations — Listing 44,l_044.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT
+L165,Listing,SAE Listing — Listing 45,l_045.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L166,Listing,Lab Abnormalities — Listing 46,l_046.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L167,Listing,Vital Signs — Listing 47,l_047.sas,Validated,NV,Programmer2,ADEFF,NV-2024-CT
+L168,Listing,Discontinued Subjects — Listing 48,l_048.sas,Pending,,,ADAE,NV-2024-CT
+L169,Listing,Dose Modifications — Listing 49,l_049.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L170,Listing,Subject Disposition — Listing 50,l_050.sas,Validated,NV,Programmer2,ADPK,NV-2024-CT
+L171,Listing,Protocol Deviations — Listing 51,l_051.sas,In QC Review,,,ADSL,NV-2024-CT
+L172,Listing,SAE Listing — Listing 52,l_052.sas,Validated,NV,Programmer2,ADLB,NV-2024-CT

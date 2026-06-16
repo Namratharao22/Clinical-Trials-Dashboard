@@ -1,0 +1,474 @@
+AEID,USUBJID,ARM,SOC,AETERM,CTCAE_GRADE,SERIOUS,ONSET_WEEK,RESOLVED,PROTOCOL
+AE-0001,NV2024-0160,Treatment,Gastrointestinal disorders,Constipation,2,N,23,Y,NV-2024-CT
+AE-0002,NV2024-0153,Treatment,Gastrointestinal disorders,Abdominal pain,2,N,17,Y,NV-2024-CT
+AE-0003,NV2024-0026,Treatment,Gastrointestinal disorders,Nausea,3,Y,21,Y,NV-2024-CT
+AE-0004,NV2024-0197,Treatment,Gastrointestinal disorders,Vomiting,2,N,14,Y,NV-2024-CT
+AE-0005,NV2024-0059,Treatment,Gastrointestinal disorders,Abdominal pain,1,N,13,Y,NV-2024-CT
+AE-0006,NV2024-0025,Placebo,Gastrointestinal disorders,Diarrhea,1,N,22,Y,NV-2024-CT
+AE-0007,NV2024-0040,Placebo,Gastrointestinal disorders,Abdominal pain,2,N,3,Y,NV-2024-CT
+AE-0008,NV2024-0022,Placebo,Gastrointestinal disorders,Nausea,1,N,24,Y,NV-2024-CT
+AE-0009,NV2024-0034,Treatment,Gastrointestinal disorders,Constipation,2,N,18,Y,NV-2024-CT
+AE-0010,NV2024-0172,Treatment,Gastrointestinal disorders,Diarrhea,1,N,22,N,NV-2024-CT
+AE-0011,NV2024-0109,Placebo,Gastrointestinal disorders,Nausea,3,Y,10,Y,NV-2024-CT
+AE-0012,NV2024-0091,Treatment,Gastrointestinal disorders,Constipation,1,N,7,Y,NV-2024-CT
+AE-0013,NV2024-0124,Treatment,Gastrointestinal disorders,Nausea,1,N,12,N,NV-2024-CT
+AE-0014,NV2024-0095,Placebo,Gastrointestinal disorders,Diarrhea,1,N,19,Y,NV-2024-CT
+AE-0015,NV2024-0110,Treatment,Gastrointestinal disorders,Constipation,3,Y,20,Y,NV-2024-CT
+AE-0016,NV2024-0143,Placebo,Gastrointestinal disorders,Diarrhea,1,N,1,Y,NV-2024-CT
+AE-0017,NV2024-0180,Placebo,Gastrointestinal disorders,Diarrhea,2,N,12,Y,NV-2024-CT
+AE-0018,NV2024-0037,Treatment,Gastrointestinal disorders,Abdominal pain,2,N,3,Y,NV-2024-CT
+AE-0019,NV2024-0163,Treatment,Gastrointestinal disorders,Nausea,4,Y,24,Y,NV-2024-CT
+AE-0020,NV2024-0097,Treatment,Gastrointestinal disorders,Diarrhea,1,N,6,Y,NV-2024-CT
+AE-0021,NV2024-0185,Placebo,Gastrointestinal disorders,Constipation,1,N,20,Y,NV-2024-CT
+AE-0022,NV2024-0014,Placebo,Gastrointestinal disorders,Constipation,1,N,2,Y,NV-2024-CT
+AE-0023,NV2024-0070,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,16,Y,NV-2024-CT
+AE-0024,NV2024-0107,Placebo,Gastrointestinal disorders,Constipation,1,N,4,Y,NV-2024-CT
+AE-0025,NV2024-0029,Placebo,Gastrointestinal disorders,Constipation,1,N,16,Y,NV-2024-CT
+AE-0026,NV2024-0079,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,20,Y,NV-2024-CT
+AE-0027,NV2024-0053,Treatment,Gastrointestinal disorders,Vomiting,1,N,5,Y,NV-2024-CT
+AE-0028,NV2024-0075,Treatment,Gastrointestinal disorders,Nausea,1,N,16,Y,NV-2024-CT
+AE-0029,NV2024-0045,Treatment,Gastrointestinal disorders,Constipation,1,N,23,Y,NV-2024-CT
+AE-0030,NV2024-0144,Placebo,Gastrointestinal disorders,Diarrhea,3,Y,3,Y,NV-2024-CT
+AE-0031,NV2024-0190,Treatment,Gastrointestinal disorders,Nausea,1,N,15,N,NV-2024-CT
+AE-0032,NV2024-0081,Placebo,Gastrointestinal disorders,Constipation,2,N,13,Y,NV-2024-CT
+AE-0033,NV2024-0107,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,1,N,NV-2024-CT
+AE-0034,NV2024-0044,Treatment,Gastrointestinal disorders,Constipation,3,Y,15,N,NV-2024-CT
+AE-0035,NV2024-0093,Treatment,Gastrointestinal disorders,Nausea,1,N,8,Y,NV-2024-CT
+AE-0036,NV2024-0103,Treatment,Gastrointestinal disorders,Abdominal pain,2,N,10,Y,NV-2024-CT
+AE-0037,NV2024-0057,Treatment,Gastrointestinal disorders,Vomiting,1,N,3,Y,NV-2024-CT
+AE-0038,NV2024-0030,Placebo,Gastrointestinal disorders,Vomiting,2,N,12,Y,NV-2024-CT
+AE-0039,NV2024-0166,Placebo,Gastrointestinal disorders,Vomiting,3,Y,4,Y,NV-2024-CT
+AE-0040,NV2024-0051,Placebo,Gastrointestinal disorders,Vomiting,1,N,21,Y,NV-2024-CT
+AE-0041,NV2024-0198,Placebo,Gastrointestinal disorders,Abdominal pain,2,N,19,Y,NV-2024-CT
+AE-0042,NV2024-0115,Placebo,Gastrointestinal disorders,Constipation,2,N,21,Y,NV-2024-CT
+AE-0043,NV2024-0160,Treatment,Gastrointestinal disorders,Diarrhea,1,N,5,Y,NV-2024-CT
+AE-0044,NV2024-0121,Treatment,Gastrointestinal disorders,Diarrhea,1,N,9,Y,NV-2024-CT
+AE-0045,NV2024-0091,Treatment,Gastrointestinal disorders,Diarrhea,2,N,15,Y,NV-2024-CT
+AE-0046,NV2024-0015,Placebo,Gastrointestinal disorders,Diarrhea,1,N,3,Y,NV-2024-CT
+AE-0047,NV2024-0024,Treatment,Gastrointestinal disorders,Constipation,2,N,13,Y,NV-2024-CT
+AE-0048,NV2024-0142,Placebo,Gastrointestinal disorders,Nausea,4,Y,15,N,NV-2024-CT
+AE-0049,NV2024-0147,Treatment,Gastrointestinal disorders,Diarrhea,2,N,20,Y,NV-2024-CT
+AE-0050,NV2024-0039,Placebo,Gastrointestinal disorders,Abdominal pain,4,Y,4,N,NV-2024-CT
+AE-0051,NV2024-0088,Placebo,Gastrointestinal disorders,Nausea,4,Y,17,Y,NV-2024-CT
+AE-0052,NV2024-0011,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,15,Y,NV-2024-CT
+AE-0053,NV2024-0157,Treatment,Gastrointestinal disorders,Diarrhea,1,N,10,Y,NV-2024-CT
+AE-0054,NV2024-0199,Placebo,Gastrointestinal disorders,Constipation,1,N,2,N,NV-2024-CT
+AE-0055,NV2024-0166,Placebo,Gastrointestinal disorders,Diarrhea,1,N,4,Y,NV-2024-CT
+AE-0056,NV2024-0099,Treatment,Gastrointestinal disorders,Constipation,1,N,5,Y,NV-2024-CT
+AE-0057,NV2024-0150,Placebo,Gastrointestinal disorders,Diarrhea,2,N,10,N,NV-2024-CT
+AE-0058,NV2024-0179,Placebo,Gastrointestinal disorders,Vomiting,2,N,20,Y,NV-2024-CT
+AE-0059,NV2024-0022,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,21,N,NV-2024-CT
+AE-0060,NV2024-0033,Placebo,Gastrointestinal disorders,Constipation,2,N,3,Y,NV-2024-CT
+AE-0061,NV2024-0109,Placebo,Gastrointestinal disorders,Nausea,2,N,12,Y,NV-2024-CT
+AE-0062,NV2024-0055,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,7,Y,NV-2024-CT
+AE-0063,NV2024-0036,Treatment,Gastrointestinal disorders,Diarrhea,1,N,4,Y,NV-2024-CT
+AE-0064,NV2024-0139,Treatment,Gastrointestinal disorders,Constipation,3,Y,2,Y,NV-2024-CT
+AE-0065,NV2024-0197,Treatment,Gastrointestinal disorders,Constipation,2,N,13,Y,NV-2024-CT
+AE-0066,NV2024-0047,Placebo,Gastrointestinal disorders,Constipation,3,Y,6,Y,NV-2024-CT
+AE-0067,NV2024-0012,Treatment,Gastrointestinal disorders,Vomiting,1,N,15,Y,NV-2024-CT
+AE-0068,NV2024-0193,Placebo,Gastrointestinal disorders,Abdominal pain,2,N,8,Y,NV-2024-CT
+AE-0069,NV2024-0080,Treatment,Gastrointestinal disorders,Abdominal pain,4,Y,7,Y,NV-2024-CT
+AE-0070,NV2024-0147,Treatment,Gastrointestinal disorders,Abdominal pain,4,Y,10,Y,NV-2024-CT
+AE-0071,NV2024-0129,Placebo,Gastrointestinal disorders,Vomiting,2,N,7,N,NV-2024-CT
+AE-0072,NV2024-0036,Treatment,Gastrointestinal disorders,Nausea,3,Y,21,Y,NV-2024-CT
+AE-0073,NV2024-0096,Treatment,Gastrointestinal disorders,Nausea,2,N,23,N,NV-2024-CT
+AE-0074,NV2024-0032,Treatment,Gastrointestinal disorders,Vomiting,1,N,9,Y,NV-2024-CT
+AE-0075,NV2024-0132,Treatment,Gastrointestinal disorders,Abdominal pain,1,N,3,N,NV-2024-CT
+AE-0076,NV2024-0057,Treatment,Gastrointestinal disorders,Diarrhea,3,Y,1,Y,NV-2024-CT
+AE-0077,NV2024-0102,Treatment,Gastrointestinal disorders,Vomiting,2,N,13,N,NV-2024-CT
+AE-0078,NV2024-0096,Treatment,Gastrointestinal disorders,Diarrhea,1,N,4,N,NV-2024-CT
+AE-0079,NV2024-0167,Placebo,Gastrointestinal disorders,Vomiting,1,N,5,Y,NV-2024-CT
+AE-0080,NV2024-0121,Treatment,Gastrointestinal disorders,Vomiting,2,N,23,Y,NV-2024-CT
+AE-0081,NV2024-0158,Placebo,Gastrointestinal disorders,Nausea,1,N,1,Y,NV-2024-CT
+AE-0082,NV2024-0039,Placebo,Gastrointestinal disorders,Constipation,2,N,17,Y,NV-2024-CT
+AE-0083,NV2024-0199,Placebo,Gastrointestinal disorders,Diarrhea,1,N,4,Y,NV-2024-CT
+AE-0084,NV2024-0108,Placebo,Gastrointestinal disorders,Constipation,2,N,15,Y,NV-2024-CT
+AE-0085,NV2024-0128,Treatment,Gastrointestinal disorders,Nausea,2,N,21,Y,NV-2024-CT
+AE-0086,NV2024-0062,Treatment,Gastrointestinal disorders,Diarrhea,2,N,14,Y,NV-2024-CT
+AE-0087,NV2024-0091,Treatment,Gastrointestinal disorders,Abdominal pain,1,N,6,Y,NV-2024-CT
+AE-0088,NV2024-0022,Placebo,Gastrointestinal disorders,Diarrhea,2,N,3,N,NV-2024-CT
+AE-0089,NV2024-0140,Placebo,Gastrointestinal disorders,Constipation,2,N,18,Y,NV-2024-CT
+AE-0090,NV2024-0121,Treatment,Gastrointestinal disorders,Abdominal pain,1,N,12,Y,NV-2024-CT
+AE-0091,NV2024-0005,Placebo,Gastrointestinal disorders,Nausea,1,N,12,Y,NV-2024-CT
+AE-0092,NV2024-0169,Placebo,Gastrointestinal disorders,Constipation,2,N,24,Y,NV-2024-CT
+AE-0093,NV2024-0035,Treatment,Gastrointestinal disorders,Constipation,1,N,11,N,NV-2024-CT
+AE-0094,NV2024-0045,Treatment,Gastrointestinal disorders,Abdominal pain,3,Y,23,Y,NV-2024-CT
+AE-0095,NV2024-0047,Placebo,Gastrointestinal disorders,Nausea,3,Y,23,Y,NV-2024-CT
+AE-0096,NV2024-0118,Placebo,Gastrointestinal disorders,Vomiting,1,N,2,N,NV-2024-CT
+AE-0097,NV2024-0011,Placebo,Gastrointestinal disorders,Diarrhea,1,N,17,Y,NV-2024-CT
+AE-0098,NV2024-0140,Placebo,Gastrointestinal disorders,Nausea,1,N,21,Y,NV-2024-CT
+AE-0099,NV2024-0092,Placebo,Gastrointestinal disorders,Nausea,3,Y,21,Y,NV-2024-CT
+AE-0100,NV2024-0032,Treatment,Gastrointestinal disorders,Abdominal pain,3,Y,13,Y,NV-2024-CT
+AE-0101,NV2024-0099,Treatment,Gastrointestinal disorders,Vomiting,1,N,16,Y,NV-2024-CT
+AE-0102,NV2024-0095,Placebo,Gastrointestinal disorders,Constipation,3,Y,9,N,NV-2024-CT
+AE-0103,NV2024-0187,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,20,N,NV-2024-CT
+AE-0104,NV2024-0047,Placebo,Gastrointestinal disorders,Diarrhea,2,N,4,Y,NV-2024-CT
+AE-0105,NV2024-0170,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,20,Y,NV-2024-CT
+AE-0106,NV2024-0043,Placebo,Gastrointestinal disorders,Diarrhea,2,N,15,Y,NV-2024-CT
+AE-0107,NV2024-0091,Treatment,Gastrointestinal disorders,Abdominal pain,2,N,9,Y,NV-2024-CT
+AE-0108,NV2024-0015,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,12,Y,NV-2024-CT
+AE-0109,NV2024-0192,Treatment,Gastrointestinal disorders,Nausea,2,N,5,N,NV-2024-CT
+AE-0110,NV2024-0174,Treatment,Gastrointestinal disorders,Nausea,2,N,5,Y,NV-2024-CT
+AE-0111,NV2024-0200,Treatment,Gastrointestinal disorders,Diarrhea,2,N,13,N,NV-2024-CT
+AE-0112,NV2024-0009,Treatment,Gastrointestinal disorders,Abdominal pain,2,N,12,Y,NV-2024-CT
+AE-0113,NV2024-0196,Placebo,Gastrointestinal disorders,Vomiting,1,N,17,Y,NV-2024-CT
+AE-0114,NV2024-0081,Placebo,Gastrointestinal disorders,Vomiting,2,N,4,Y,NV-2024-CT
+AE-0115,NV2024-0048,Placebo,Gastrointestinal disorders,Abdominal pain,2,N,18,Y,NV-2024-CT
+AE-0116,NV2024-0199,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,7,N,NV-2024-CT
+AE-0117,NV2024-0074,Placebo,Gastrointestinal disorders,Abdominal pain,2,N,7,Y,NV-2024-CT
+AE-0118,NV2024-0019,Treatment,Gastrointestinal disorders,Abdominal pain,1,N,3,N,NV-2024-CT
+AE-0119,NV2024-0082,Placebo,Gastrointestinal disorders,Nausea,2,N,18,Y,NV-2024-CT
+AE-0120,NV2024-0077,Treatment,Gastrointestinal disorders,Vomiting,3,Y,12,Y,NV-2024-CT
+AE-0121,NV2024-0032,Treatment,Gastrointestinal disorders,Vomiting,4,Y,8,N,NV-2024-CT
+AE-0122,NV2024-0007,Treatment,Gastrointestinal disorders,Constipation,1,N,12,Y,NV-2024-CT
+AE-0123,NV2024-0142,Placebo,Gastrointestinal disorders,Nausea,1,N,3,Y,NV-2024-CT
+AE-0124,NV2024-0184,Treatment,Gastrointestinal disorders,Constipation,2,N,14,Y,NV-2024-CT
+AE-0125,NV2024-0148,Placebo,Gastrointestinal disorders,Diarrhea,1,N,21,Y,NV-2024-CT
+AE-0126,NV2024-0120,Placebo,Gastrointestinal disorders,Diarrhea,2,N,5,N,NV-2024-CT
+AE-0127,NV2024-0200,Treatment,Gastrointestinal disorders,Constipation,2,N,6,Y,NV-2024-CT
+AE-0128,NV2024-0034,Treatment,Gastrointestinal disorders,Nausea,1,N,4,Y,NV-2024-CT
+AE-0129,NV2024-0078,Placebo,Gastrointestinal disorders,Diarrhea,1,N,23,Y,NV-2024-CT
+AE-0130,NV2024-0133,Placebo,Gastrointestinal disorders,Nausea,3,Y,9,Y,NV-2024-CT
+AE-0131,NV2024-0142,Placebo,Gastrointestinal disorders,Diarrhea,1,N,20,Y,NV-2024-CT
+AE-0132,NV2024-0129,Placebo,Gastrointestinal disorders,Constipation,2,N,19,Y,NV-2024-CT
+AE-0133,NV2024-0169,Placebo,Gastrointestinal disorders,Constipation,2,N,11,N,NV-2024-CT
+AE-0134,NV2024-0145,Treatment,Gastrointestinal disorders,Nausea,1,N,3,Y,NV-2024-CT
+AE-0135,NV2024-0165,Treatment,Gastrointestinal disorders,Diarrhea,2,N,21,Y,NV-2024-CT
+AE-0136,NV2024-0147,Treatment,Gastrointestinal disorders,Nausea,1,N,16,N,NV-2024-CT
+AE-0137,NV2024-0140,Placebo,Gastrointestinal disorders,Diarrhea,1,N,16,Y,NV-2024-CT
+AE-0138,NV2024-0176,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,3,Y,NV-2024-CT
+AE-0139,NV2024-0041,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,15,Y,NV-2024-CT
+AE-0140,NV2024-0156,Treatment,Gastrointestinal disorders,Diarrhea,1,N,24,N,NV-2024-CT
+AE-0141,NV2024-0089,Placebo,Gastrointestinal disorders,Vomiting,4,Y,12,Y,NV-2024-CT
+AE-0142,NV2024-0028,Placebo,Gastrointestinal disorders,Abdominal pain,1,N,4,Y,NV-2024-CT
+AE-0143,NV2024-0064,Treatment,Nervous system disorders,Headache,1,N,10,N,NV-2024-CT
+AE-0144,NV2024-0158,Placebo,Nervous system disorders,Dizziness,1,N,11,N,NV-2024-CT
+AE-0145,NV2024-0185,Placebo,Nervous system disorders,Dizziness,1,N,16,N,NV-2024-CT
+AE-0146,NV2024-0120,Placebo,Nervous system disorders,Peripheral neuropathy,2,N,16,Y,NV-2024-CT
+AE-0147,NV2024-0101,Treatment,Nervous system disorders,Dizziness,2,N,7,Y,NV-2024-CT
+AE-0148,NV2024-0013,Treatment,Nervous system disorders,Insomnia,1,N,20,N,NV-2024-CT
+AE-0149,NV2024-0168,Treatment,Nervous system disorders,Peripheral neuropathy,2,N,18,Y,NV-2024-CT
+AE-0150,NV2024-0028,Placebo,Nervous system disorders,Peripheral neuropathy,1,N,24,Y,NV-2024-CT
+AE-0151,NV2024-0104,Placebo,Nervous system disorders,Insomnia,1,N,2,Y,NV-2024-CT
+AE-0152,NV2024-0050,Treatment,Nervous system disorders,Peripheral neuropathy,1,N,3,Y,NV-2024-CT
+AE-0153,NV2024-0116,Placebo,Nervous system disorders,Peripheral neuropathy,2,N,20,Y,NV-2024-CT
+AE-0154,NV2024-0031,Treatment,Nervous system disorders,Headache,1,N,13,Y,NV-2024-CT
+AE-0155,NV2024-0087,Treatment,Nervous system disorders,Peripheral neuropathy,2,N,5,Y,NV-2024-CT
+AE-0156,NV2024-0131,Treatment,Nervous system disorders,Headache,1,N,2,Y,NV-2024-CT
+AE-0157,NV2024-0183,Placebo,Nervous system disorders,Insomnia,1,N,17,Y,NV-2024-CT
+AE-0158,NV2024-0156,Treatment,Nervous system disorders,Dizziness,3,Y,11,N,NV-2024-CT
+AE-0159,NV2024-0082,Placebo,Nervous system disorders,Tremor,1,N,24,N,NV-2024-CT
+AE-0160,NV2024-0152,Placebo,Nervous system disorders,Tremor,1,N,18,Y,NV-2024-CT
+AE-0161,NV2024-0145,Treatment,Nervous system disorders,Headache,1,N,12,Y,NV-2024-CT
+AE-0162,NV2024-0029,Placebo,Nervous system disorders,Tremor,4,Y,10,N,NV-2024-CT
+AE-0163,NV2024-0186,Placebo,Nervous system disorders,Headache,3,Y,20,Y,NV-2024-CT
+AE-0164,NV2024-0168,Treatment,Nervous system disorders,Tremor,2,N,19,Y,NV-2024-CT
+AE-0165,NV2024-0014,Placebo,Nervous system disorders,Dizziness,2,N,17,Y,NV-2024-CT
+AE-0166,NV2024-0159,Placebo,Nervous system disorders,Insomnia,2,N,5,N,NV-2024-CT
+AE-0167,NV2024-0063,Treatment,Nervous system disorders,Headache,1,N,7,Y,NV-2024-CT
+AE-0168,NV2024-0081,Placebo,Nervous system disorders,Insomnia,1,N,23,Y,NV-2024-CT
+AE-0169,NV2024-0129,Placebo,Nervous system disorders,Insomnia,2,N,24,Y,NV-2024-CT
+AE-0170,NV2024-0181,Treatment,Nervous system disorders,Dizziness,1,N,18,Y,NV-2024-CT
+AE-0171,NV2024-0170,Placebo,Nervous system disorders,Insomnia,1,N,11,N,NV-2024-CT
+AE-0172,NV2024-0118,Placebo,Nervous system disorders,Peripheral neuropathy,3,Y,18,Y,NV-2024-CT
+AE-0173,NV2024-0198,Placebo,Nervous system disorders,Peripheral neuropathy,3,Y,20,Y,NV-2024-CT
+AE-0174,NV2024-0064,Treatment,Nervous system disorders,Peripheral neuropathy,1,N,8,N,NV-2024-CT
+AE-0175,NV2024-0077,Treatment,Nervous system disorders,Dizziness,2,N,23,Y,NV-2024-CT
+AE-0176,NV2024-0082,Placebo,Nervous system disorders,Tremor,1,N,24,Y,NV-2024-CT
+AE-0177,NV2024-0032,Treatment,Nervous system disorders,Tremor,2,N,13,N,NV-2024-CT
+AE-0178,NV2024-0102,Treatment,Nervous system disorders,Dizziness,3,Y,10,Y,NV-2024-CT
+AE-0179,NV2024-0183,Placebo,Nervous system disorders,Insomnia,1,N,21,Y,NV-2024-CT
+AE-0180,NV2024-0123,Placebo,Nervous system disorders,Tremor,1,N,9,N,NV-2024-CT
+AE-0181,NV2024-0179,Placebo,Nervous system disorders,Headache,1,N,20,Y,NV-2024-CT
+AE-0182,NV2024-0062,Treatment,Nervous system disorders,Tremor,1,N,8,Y,NV-2024-CT
+AE-0183,NV2024-0014,Placebo,Nervous system disorders,Peripheral neuropathy,1,N,23,Y,NV-2024-CT
+AE-0184,NV2024-0175,Treatment,Nervous system disorders,Headache,2,N,18,N,NV-2024-CT
+AE-0185,NV2024-0041,Placebo,Nervous system disorders,Insomnia,1,N,16,Y,NV-2024-CT
+AE-0186,NV2024-0194,Treatment,Nervous system disorders,Peripheral neuropathy,4,Y,10,Y,NV-2024-CT
+AE-0187,NV2024-0197,Treatment,Nervous system disorders,Tremor,1,N,8,Y,NV-2024-CT
+AE-0188,NV2024-0186,Placebo,Nervous system disorders,Headache,3,Y,6,Y,NV-2024-CT
+AE-0189,NV2024-0046,Treatment,Nervous system disorders,Headache,3,Y,13,N,NV-2024-CT
+AE-0190,NV2024-0048,Placebo,Nervous system disorders,Peripheral neuropathy,3,Y,2,Y,NV-2024-CT
+AE-0191,NV2024-0146,Treatment,Nervous system disorders,Peripheral neuropathy,2,N,10,Y,NV-2024-CT
+AE-0192,NV2024-0165,Treatment,Nervous system disorders,Insomnia,2,N,5,N,NV-2024-CT
+AE-0193,NV2024-0120,Placebo,Nervous system disorders,Headache,1,N,11,Y,NV-2024-CT
+AE-0194,NV2024-0118,Placebo,Nervous system disorders,Dizziness,2,N,1,Y,NV-2024-CT
+AE-0195,NV2024-0076,Placebo,Nervous system disorders,Dizziness,2,N,6,Y,NV-2024-CT
+AE-0196,NV2024-0164,Treatment,Nervous system disorders,Insomnia,3,Y,17,Y,NV-2024-CT
+AE-0197,NV2024-0103,Treatment,Nervous system disorders,Dizziness,2,N,5,Y,NV-2024-CT
+AE-0198,NV2024-0064,Treatment,Nervous system disorders,Insomnia,1,N,8,Y,NV-2024-CT
+AE-0199,NV2024-0069,Treatment,Nervous system disorders,Peripheral neuropathy,4,Y,19,Y,NV-2024-CT
+AE-0200,NV2024-0003,Treatment,Nervous system disorders,Peripheral neuropathy,1,N,23,Y,NV-2024-CT
+AE-0201,NV2024-0171,Placebo,Nervous system disorders,Peripheral neuropathy,1,N,6,Y,NV-2024-CT
+AE-0202,NV2024-0129,Placebo,Nervous system disorders,Peripheral neuropathy,3,Y,23,Y,NV-2024-CT
+AE-0203,NV2024-0076,Placebo,Nervous system disorders,Dizziness,1,N,8,N,NV-2024-CT
+AE-0204,NV2024-0123,Placebo,Nervous system disorders,Tremor,1,N,12,Y,NV-2024-CT
+AE-0205,NV2024-0141,Placebo,Nervous system disorders,Tremor,3,Y,22,N,NV-2024-CT
+AE-0206,NV2024-0196,Placebo,Nervous system disorders,Tremor,1,N,3,Y,NV-2024-CT
+AE-0207,NV2024-0136,Treatment,Nervous system disorders,Headache,2,N,19,Y,NV-2024-CT
+AE-0208,NV2024-0141,Placebo,Nervous system disorders,Dizziness,3,Y,19,Y,NV-2024-CT
+AE-0209,NV2024-0043,Placebo,Nervous system disorders,Tremor,1,N,15,Y,NV-2024-CT
+AE-0210,NV2024-0053,Treatment,Nervous system disorders,Insomnia,2,N,3,N,NV-2024-CT
+AE-0211,NV2024-0115,Placebo,Nervous system disorders,Insomnia,3,Y,5,Y,NV-2024-CT
+AE-0212,NV2024-0117,Treatment,Nervous system disorders,Tremor,2,N,15,Y,NV-2024-CT
+AE-0213,NV2024-0079,Placebo,Nervous system disorders,Insomnia,2,N,9,N,NV-2024-CT
+AE-0214,NV2024-0191,Treatment,Nervous system disorders,Headache,1,N,2,Y,NV-2024-CT
+AE-0215,NV2024-0180,Placebo,Nervous system disorders,Headache,1,N,3,N,NV-2024-CT
+AE-0216,NV2024-0121,Treatment,Nervous system disorders,Insomnia,1,N,6,Y,NV-2024-CT
+AE-0217,NV2024-0197,Treatment,Nervous system disorders,Insomnia,2,N,12,N,NV-2024-CT
+AE-0218,NV2024-0098,Treatment,Nervous system disorders,Insomnia,1,N,13,Y,NV-2024-CT
+AE-0219,NV2024-0170,Placebo,Nervous system disorders,Dizziness,3,Y,21,N,NV-2024-CT
+AE-0220,NV2024-0031,Treatment,Nervous system disorders,Tremor,1,N,13,Y,NV-2024-CT
+AE-0221,NV2024-0187,Placebo,Nervous system disorders,Headache,4,Y,1,N,NV-2024-CT
+AE-0222,NV2024-0119,Placebo,Nervous system disorders,Tremor,2,N,14,Y,NV-2024-CT
+AE-0223,NV2024-0059,Treatment,Nervous system disorders,Peripheral neuropathy,1,N,5,Y,NV-2024-CT
+AE-0224,NV2024-0186,Placebo,Nervous system disorders,Headache,2,N,22,Y,NV-2024-CT
+AE-0225,NV2024-0197,Treatment,Nervous system disorders,Headache,3,Y,8,Y,NV-2024-CT
+AE-0226,NV2024-0026,Treatment,Nervous system disorders,Insomnia,2,N,20,Y,NV-2024-CT
+AE-0227,NV2024-0013,Treatment,Nervous system disorders,Headache,1,N,13,Y,NV-2024-CT
+AE-0228,NV2024-0139,Treatment,Nervous system disorders,Headache,1,N,5,Y,NV-2024-CT
+AE-0229,NV2024-0075,Treatment,Nervous system disorders,Tremor,1,N,11,Y,NV-2024-CT
+AE-0230,NV2024-0198,Placebo,Nervous system disorders,Peripheral neuropathy,2,N,8,Y,NV-2024-CT
+AE-0231,NV2024-0037,Treatment,Nervous system disorders,Tremor,4,Y,8,Y,NV-2024-CT
+AE-0232,NV2024-0071,Placebo,Nervous system disorders,Tremor,1,N,24,N,NV-2024-CT
+AE-0233,NV2024-0161,Placebo,Nervous system disorders,Tremor,2,N,16,Y,NV-2024-CT
+AE-0234,NV2024-0089,Placebo,Nervous system disorders,Insomnia,4,Y,17,Y,NV-2024-CT
+AE-0235,NV2024-0107,Placebo,Nervous system disorders,Peripheral neuropathy,1,N,13,Y,NV-2024-CT
+AE-0236,NV2024-0138,Placebo,Nervous system disorders,Dizziness,1,N,10,N,NV-2024-CT
+AE-0237,NV2024-0037,Treatment,Nervous system disorders,Headache,3,Y,18,Y,NV-2024-CT
+AE-0238,NV2024-0107,Placebo,Nervous system disorders,Dizziness,2,N,13,Y,NV-2024-CT
+AE-0239,NV2024-0053,Treatment,Nervous system disorders,Headache,1,N,15,N,NV-2024-CT
+AE-0240,NV2024-0024,Treatment,Nervous system disorders,Dizziness,2,N,2,Y,NV-2024-CT
+AE-0241,NV2024-0173,Treatment,General disorders & admin site,Fatigue,2,N,3,Y,NV-2024-CT
+AE-0242,NV2024-0195,Placebo,General disorders & admin site,Edema,2,N,7,Y,NV-2024-CT
+AE-0243,NV2024-0086,Treatment,General disorders & admin site,Fatigue,1,N,7,N,NV-2024-CT
+AE-0244,NV2024-0190,Treatment,General disorders & admin site,Malaise,1,N,8,Y,NV-2024-CT
+AE-0245,NV2024-0181,Treatment,General disorders & admin site,Pyrexia,1,N,18,Y,NV-2024-CT
+AE-0246,NV2024-0073,Placebo,General disorders & admin site,Edema,1,N,21,Y,NV-2024-CT
+AE-0247,NV2024-0067,Treatment,General disorders & admin site,Malaise,1,N,15,Y,NV-2024-CT
+AE-0248,NV2024-0185,Placebo,General disorders & admin site,Injection site reaction,1,N,7,Y,NV-2024-CT
+AE-0249,NV2024-0106,Treatment,General disorders & admin site,Pyrexia,1,N,24,Y,NV-2024-CT
+AE-0250,NV2024-0067,Treatment,General disorders & admin site,Edema,2,N,19,Y,NV-2024-CT
+AE-0251,NV2024-0076,Placebo,General disorders & admin site,Injection site reaction,1,N,8,Y,NV-2024-CT
+AE-0252,NV2024-0063,Treatment,General disorders & admin site,Injection site reaction,2,N,9,Y,NV-2024-CT
+AE-0253,NV2024-0126,Placebo,General disorders & admin site,Malaise,4,Y,15,Y,NV-2024-CT
+AE-0254,NV2024-0091,Treatment,General disorders & admin site,Edema,1,N,16,Y,NV-2024-CT
+AE-0255,NV2024-0139,Treatment,General disorders & admin site,Fatigue,4,Y,17,Y,NV-2024-CT
+AE-0256,NV2024-0020,Placebo,General disorders & admin site,Fatigue,4,Y,1,Y,NV-2024-CT
+AE-0257,NV2024-0162,Treatment,General disorders & admin site,Pyrexia,1,N,1,Y,NV-2024-CT
+AE-0258,NV2024-0117,Treatment,General disorders & admin site,Edema,1,N,21,Y,NV-2024-CT
+AE-0259,NV2024-0158,Placebo,General disorders & admin site,Malaise,3,Y,1,Y,NV-2024-CT
+AE-0260,NV2024-0142,Placebo,General disorders & admin site,Fatigue,1,N,17,Y,NV-2024-CT
+AE-0261,NV2024-0138,Placebo,General disorders & admin site,Fatigue,4,Y,17,N,NV-2024-CT
+AE-0262,NV2024-0173,Treatment,General disorders & admin site,Pyrexia,1,N,4,N,NV-2024-CT
+AE-0263,NV2024-0135,Placebo,General disorders & admin site,Pyrexia,1,N,20,Y,NV-2024-CT
+AE-0264,NV2024-0091,Treatment,General disorders & admin site,Malaise,1,N,3,Y,NV-2024-CT
+AE-0265,NV2024-0104,Placebo,General disorders & admin site,Pyrexia,1,N,23,Y,NV-2024-CT
+AE-0266,NV2024-0176,Placebo,General disorders & admin site,Fatigue,3,Y,21,N,NV-2024-CT
+AE-0267,NV2024-0167,Placebo,General disorders & admin site,Fatigue,2,N,13,Y,NV-2024-CT
+AE-0268,NV2024-0142,Placebo,General disorders & admin site,Fatigue,1,N,23,Y,NV-2024-CT
+AE-0269,NV2024-0128,Treatment,General disorders & admin site,Injection site reaction,3,Y,19,N,NV-2024-CT
+AE-0270,NV2024-0025,Placebo,General disorders & admin site,Fatigue,3,Y,8,Y,NV-2024-CT
+AE-0271,NV2024-0178,Placebo,General disorders & admin site,Malaise,3,Y,9,Y,NV-2024-CT
+AE-0272,NV2024-0020,Placebo,General disorders & admin site,Injection site reaction,2,N,18,Y,NV-2024-CT
+AE-0273,NV2024-0009,Treatment,General disorders & admin site,Injection site reaction,1,N,1,N,NV-2024-CT
+AE-0274,NV2024-0151,Placebo,General disorders & admin site,Malaise,1,N,3,Y,NV-2024-CT
+AE-0275,NV2024-0145,Treatment,General disorders & admin site,Malaise,1,N,22,N,NV-2024-CT
+AE-0276,NV2024-0085,Placebo,General disorders & admin site,Pyrexia,1,N,23,Y,NV-2024-CT
+AE-0277,NV2024-0129,Placebo,General disorders & admin site,Injection site reaction,2,N,2,Y,NV-2024-CT
+AE-0278,NV2024-0060,Treatment,General disorders & admin site,Injection site reaction,3,Y,20,Y,NV-2024-CT
+AE-0279,NV2024-0153,Treatment,General disorders & admin site,Injection site reaction,1,N,1,Y,NV-2024-CT
+AE-0280,NV2024-0116,Placebo,General disorders & admin site,Injection site reaction,2,N,18,N,NV-2024-CT
+AE-0281,NV2024-0111,Placebo,General disorders & admin site,Edema,1,N,22,Y,NV-2024-CT
+AE-0282,NV2024-0198,Placebo,General disorders & admin site,Pyrexia,2,N,23,Y,NV-2024-CT
+AE-0283,NV2024-0069,Treatment,General disorders & admin site,Pyrexia,1,N,24,Y,NV-2024-CT
+AE-0284,NV2024-0093,Treatment,General disorders & admin site,Fatigue,1,N,10,Y,NV-2024-CT
+AE-0285,NV2024-0195,Placebo,General disorders & admin site,Pyrexia,1,N,3,Y,NV-2024-CT
+AE-0286,NV2024-0115,Placebo,General disorders & admin site,Edema,2,N,14,Y,NV-2024-CT
+AE-0287,NV2024-0023,Treatment,General disorders & admin site,Fatigue,1,N,20,Y,NV-2024-CT
+AE-0288,NV2024-0084,Placebo,General disorders & admin site,Fatigue,3,Y,10,Y,NV-2024-CT
+AE-0289,NV2024-0200,Treatment,General disorders & admin site,Edema,1,N,8,Y,NV-2024-CT
+AE-0290,NV2024-0044,Treatment,General disorders & admin site,Pyrexia,2,N,5,Y,NV-2024-CT
+AE-0291,NV2024-0069,Treatment,General disorders & admin site,Fatigue,2,N,6,Y,NV-2024-CT
+AE-0292,NV2024-0108,Placebo,General disorders & admin site,Fatigue,1,N,12,Y,NV-2024-CT
+AE-0293,NV2024-0064,Treatment,General disorders & admin site,Malaise,2,N,20,Y,NV-2024-CT
+AE-0294,NV2024-0118,Placebo,General disorders & admin site,Injection site reaction,1,N,1,N,NV-2024-CT
+AE-0295,NV2024-0086,Treatment,General disorders & admin site,Malaise,3,Y,11,Y,NV-2024-CT
+AE-0296,NV2024-0111,Placebo,General disorders & admin site,Edema,3,Y,5,Y,NV-2024-CT
+AE-0297,NV2024-0155,Treatment,General disorders & admin site,Pyrexia,4,Y,16,Y,NV-2024-CT
+AE-0298,NV2024-0102,Treatment,General disorders & admin site,Injection site reaction,4,Y,24,Y,NV-2024-CT
+AE-0299,NV2024-0126,Placebo,General disorders & admin site,Pyrexia,4,Y,11,Y,NV-2024-CT
+AE-0300,NV2024-0101,Treatment,General disorders & admin site,Edema,1,N,7,Y,NV-2024-CT
+AE-0301,NV2024-0140,Placebo,General disorders & admin site,Edema,1,N,1,N,NV-2024-CT
+AE-0302,NV2024-0119,Placebo,General disorders & admin site,Pyrexia,4,Y,15,N,NV-2024-CT
+AE-0303,NV2024-0178,Placebo,General disorders & admin site,Malaise,1,N,22,Y,NV-2024-CT
+AE-0304,NV2024-0163,Treatment,General disorders & admin site,Injection site reaction,1,N,22,Y,NV-2024-CT
+AE-0305,NV2024-0109,Placebo,General disorders & admin site,Fatigue,2,N,15,N,NV-2024-CT
+AE-0306,NV2024-0123,Placebo,General disorders & admin site,Edema,2,N,17,N,NV-2024-CT
+AE-0307,NV2024-0178,Placebo,General disorders & admin site,Fatigue,1,N,12,Y,NV-2024-CT
+AE-0308,NV2024-0138,Placebo,General disorders & admin site,Fatigue,2,N,4,Y,NV-2024-CT
+AE-0309,NV2024-0169,Placebo,General disorders & admin site,Pyrexia,2,N,21,Y,NV-2024-CT
+AE-0310,NV2024-0145,Treatment,General disorders & admin site,Malaise,4,Y,11,N,NV-2024-CT
+AE-0311,NV2024-0111,Placebo,General disorders & admin site,Fatigue,1,N,9,Y,NV-2024-CT
+AE-0312,NV2024-0192,Treatment,General disorders & admin site,Edema,2,N,23,Y,NV-2024-CT
+AE-0313,NV2024-0115,Placebo,General disorders & admin site,Malaise,1,N,22,Y,NV-2024-CT
+AE-0314,NV2024-0129,Placebo,General disorders & admin site,Fatigue,1,N,16,Y,NV-2024-CT
+AE-0315,NV2024-0107,Placebo,General disorders & admin site,Fatigue,3,Y,4,N,NV-2024-CT
+AE-0316,NV2024-0187,Placebo,General disorders & admin site,Injection site reaction,1,N,11,Y,NV-2024-CT
+AE-0317,NV2024-0053,Treatment,General disorders & admin site,Injection site reaction,2,N,16,Y,NV-2024-CT
+AE-0318,NV2024-0185,Placebo,General disorders & admin site,Injection site reaction,2,N,3,Y,NV-2024-CT
+AE-0319,NV2024-0182,Treatment,General disorders & admin site,Injection site reaction,1,N,21,Y,NV-2024-CT
+AE-0320,NV2024-0043,Placebo,General disorders & admin site,Pyrexia,3,Y,17,Y,NV-2024-CT
+AE-0321,NV2024-0041,Placebo,General disorders & admin site,Malaise,1,N,15,Y,NV-2024-CT
+AE-0322,NV2024-0104,Placebo,General disorders & admin site,Pyrexia,2,N,21,Y,NV-2024-CT
+AE-0323,NV2024-0102,Treatment,General disorders & admin site,Edema,1,N,7,Y,NV-2024-CT
+AE-0324,NV2024-0110,Treatment,General disorders & admin site,Pyrexia,1,N,7,Y,NV-2024-CT
+AE-0325,NV2024-0181,Treatment,General disorders & admin site,Fatigue,3,Y,19,Y,NV-2024-CT
+AE-0326,NV2024-0138,Placebo,General disorders & admin site,Injection site reaction,1,N,7,Y,NV-2024-CT
+AE-0327,NV2024-0068,Treatment,General disorders & admin site,Malaise,2,N,17,N,NV-2024-CT
+AE-0328,NV2024-0081,Placebo,Respiratory & thoracic,Rhinorrhea,2,N,13,Y,NV-2024-CT
+AE-0329,NV2024-0090,Placebo,Respiratory & thoracic,Upper respiratory infection,1,N,20,Y,NV-2024-CT
+AE-0330,NV2024-0173,Treatment,Respiratory & thoracic,Nasopharyngitis,2,N,20,Y,NV-2024-CT
+AE-0331,NV2024-0173,Treatment,Respiratory & thoracic,Cough,1,N,8,Y,NV-2024-CT
+AE-0332,NV2024-0047,Placebo,Respiratory & thoracic,Dyspnea,1,N,17,Y,NV-2024-CT
+AE-0333,NV2024-0153,Treatment,Respiratory & thoracic,Upper respiratory infection,1,N,14,Y,NV-2024-CT
+AE-0334,NV2024-0163,Treatment,Respiratory & thoracic,Dyspnea,2,N,18,Y,NV-2024-CT
+AE-0335,NV2024-0074,Placebo,Respiratory & thoracic,Nasopharyngitis,1,N,15,Y,NV-2024-CT
+AE-0336,NV2024-0092,Placebo,Respiratory & thoracic,Upper respiratory infection,4,Y,5,Y,NV-2024-CT
+AE-0337,NV2024-0099,Treatment,Respiratory & thoracic,Rhinorrhea,4,Y,21,Y,NV-2024-CT
+AE-0338,NV2024-0176,Placebo,Respiratory & thoracic,Upper respiratory infection,2,N,16,Y,NV-2024-CT
+AE-0339,NV2024-0145,Treatment,Respiratory & thoracic,Dyspnea,1,N,10,Y,NV-2024-CT
+AE-0340,NV2024-0058,Treatment,Respiratory & thoracic,Dyspnea,2,N,15,Y,NV-2024-CT
+AE-0341,NV2024-0198,Placebo,Respiratory & thoracic,Rhinorrhea,2,N,17,Y,NV-2024-CT
+AE-0342,NV2024-0030,Placebo,Respiratory & thoracic,Rhinorrhea,1,N,12,Y,NV-2024-CT
+AE-0343,NV2024-0194,Treatment,Respiratory & thoracic,Upper respiratory infection,1,N,18,Y,NV-2024-CT
+AE-0344,NV2024-0109,Placebo,Respiratory & thoracic,Dyspnea,1,N,10,N,NV-2024-CT
+AE-0345,NV2024-0009,Treatment,Respiratory & thoracic,Nasopharyngitis,1,N,3,Y,NV-2024-CT
+AE-0346,NV2024-0031,Treatment,Respiratory & thoracic,Dyspnea,2,N,7,N,NV-2024-CT
+AE-0347,NV2024-0151,Placebo,Respiratory & thoracic,Rhinorrhea,2,N,21,Y,NV-2024-CT
+AE-0348,NV2024-0158,Placebo,Respiratory & thoracic,Dyspnea,1,N,7,N,NV-2024-CT
+AE-0349,NV2024-0146,Treatment,Respiratory & thoracic,Nasopharyngitis,1,N,20,Y,NV-2024-CT
+AE-0350,NV2024-0083,Placebo,Respiratory & thoracic,Nasopharyngitis,4,Y,10,Y,NV-2024-CT
+AE-0351,NV2024-0132,Treatment,Respiratory & thoracic,Cough,4,Y,5,N,NV-2024-CT
+AE-0352,NV2024-0106,Treatment,Respiratory & thoracic,Nasopharyngitis,3,Y,21,Y,NV-2024-CT
+AE-0353,NV2024-0034,Treatment,Respiratory & thoracic,Nasopharyngitis,1,N,8,Y,NV-2024-CT
+AE-0354,NV2024-0174,Treatment,Respiratory & thoracic,Dyspnea,1,N,19,Y,NV-2024-CT
+AE-0355,NV2024-0161,Placebo,Respiratory & thoracic,Upper respiratory infection,1,N,3,Y,NV-2024-CT
+AE-0356,NV2024-0197,Treatment,Respiratory & thoracic,Rhinorrhea,1,N,24,Y,NV-2024-CT
+AE-0357,NV2024-0095,Placebo,Respiratory & thoracic,Upper respiratory infection,1,N,11,Y,NV-2024-CT
+AE-0358,NV2024-0199,Placebo,Respiratory & thoracic,Cough,3,Y,24,N,NV-2024-CT
+AE-0359,NV2024-0163,Treatment,Respiratory & thoracic,Nasopharyngitis,2,N,3,N,NV-2024-CT
+AE-0360,NV2024-0102,Treatment,Respiratory & thoracic,Upper respiratory infection,1,N,7,Y,NV-2024-CT
+AE-0361,NV2024-0083,Placebo,Respiratory & thoracic,Nasopharyngitis,3,Y,18,Y,NV-2024-CT
+AE-0362,NV2024-0145,Treatment,Respiratory & thoracic,Nasopharyngitis,3,Y,22,Y,NV-2024-CT
+AE-0363,NV2024-0012,Treatment,Respiratory & thoracic,Upper respiratory infection,1,N,1,Y,NV-2024-CT
+AE-0364,NV2024-0041,Placebo,Respiratory & thoracic,Cough,1,N,14,Y,NV-2024-CT
+AE-0365,NV2024-0177,Placebo,Respiratory & thoracic,Nasopharyngitis,3,Y,6,N,NV-2024-CT
+AE-0366,NV2024-0071,Placebo,Respiratory & thoracic,Nasopharyngitis,1,N,9,Y,NV-2024-CT
+AE-0367,NV2024-0171,Placebo,Respiratory & thoracic,Dyspnea,3,Y,2,Y,NV-2024-CT
+AE-0368,NV2024-0079,Placebo,Respiratory & thoracic,Dyspnea,2,N,14,Y,NV-2024-CT
+AE-0369,NV2024-0181,Treatment,Respiratory & thoracic,Dyspnea,1,N,16,Y,NV-2024-CT
+AE-0370,NV2024-0152,Placebo,Respiratory & thoracic,Upper respiratory infection,1,N,1,Y,NV-2024-CT
+AE-0371,NV2024-0088,Placebo,Respiratory & thoracic,Upper respiratory infection,3,Y,23,Y,NV-2024-CT
+AE-0372,NV2024-0019,Treatment,Respiratory & thoracic,Cough,1,N,24,N,NV-2024-CT
+AE-0373,NV2024-0027,Treatment,Respiratory & thoracic,Nasopharyngitis,1,N,5,Y,NV-2024-CT
+AE-0374,NV2024-0193,Placebo,Respiratory & thoracic,Dyspnea,3,Y,3,Y,NV-2024-CT
+AE-0375,NV2024-0003,Treatment,Respiratory & thoracic,Dyspnea,2,N,15,Y,NV-2024-CT
+AE-0376,NV2024-0055,Placebo,Respiratory & thoracic,Dyspnea,2,N,14,Y,NV-2024-CT
+AE-0377,NV2024-0114,Treatment,Respiratory & thoracic,Cough,3,Y,4,Y,NV-2024-CT
+AE-0378,NV2024-0032,Treatment,Respiratory & thoracic,Upper respiratory infection,2,N,12,N,NV-2024-CT
+AE-0379,NV2024-0081,Placebo,Respiratory & thoracic,Dyspnea,3,Y,9,Y,NV-2024-CT
+AE-0380,NV2024-0064,Treatment,Respiratory & thoracic,Rhinorrhea,2,N,24,Y,NV-2024-CT
+AE-0381,NV2024-0200,Treatment,Respiratory & thoracic,Cough,4,Y,22,N,NV-2024-CT
+AE-0382,NV2024-0053,Treatment,Skin & subcutaneous tissue,Urticaria,2,N,7,Y,NV-2024-CT
+AE-0383,NV2024-0076,Placebo,Skin & subcutaneous tissue,Pruritus,2,N,16,Y,NV-2024-CT
+AE-0384,NV2024-0062,Treatment,Skin & subcutaneous tissue,Urticaria,2,N,3,Y,NV-2024-CT
+AE-0385,NV2024-0004,Placebo,Skin & subcutaneous tissue,Alopecia,4,Y,5,Y,NV-2024-CT
+AE-0386,NV2024-0146,Treatment,Skin & subcutaneous tissue,Urticaria,1,N,22,Y,NV-2024-CT
+AE-0387,NV2024-0121,Treatment,Skin & subcutaneous tissue,Rash,4,Y,1,Y,NV-2024-CT
+AE-0388,NV2024-0004,Placebo,Skin & subcutaneous tissue,Rash,1,N,2,N,NV-2024-CT
+AE-0389,NV2024-0102,Treatment,Skin & subcutaneous tissue,Urticaria,2,N,14,Y,NV-2024-CT
+AE-0390,NV2024-0103,Treatment,Skin & subcutaneous tissue,Urticaria,1,N,18,Y,NV-2024-CT
+AE-0391,NV2024-0072,Treatment,Skin & subcutaneous tissue,Rash,1,N,17,N,NV-2024-CT
+AE-0392,NV2024-0040,Placebo,Skin & subcutaneous tissue,Dry skin,2,N,19,Y,NV-2024-CT
+AE-0393,NV2024-0167,Placebo,Skin & subcutaneous tissue,Rash,2,N,10,Y,NV-2024-CT
+AE-0394,NV2024-0187,Placebo,Skin & subcutaneous tissue,Pruritus,4,Y,2,Y,NV-2024-CT
+AE-0395,NV2024-0112,Placebo,Skin & subcutaneous tissue,Urticaria,1,N,20,Y,NV-2024-CT
+AE-0396,NV2024-0171,Placebo,Skin & subcutaneous tissue,Pruritus,2,N,4,Y,NV-2024-CT
+AE-0397,NV2024-0036,Treatment,Skin & subcutaneous tissue,Pruritus,2,N,16,N,NV-2024-CT
+AE-0398,NV2024-0134,Placebo,Skin & subcutaneous tissue,Alopecia,2,N,6,Y,NV-2024-CT
+AE-0399,NV2024-0192,Treatment,Skin & subcutaneous tissue,Alopecia,2,N,24,N,NV-2024-CT
+AE-0400,NV2024-0198,Placebo,Skin & subcutaneous tissue,Alopecia,3,Y,14,Y,NV-2024-CT
+AE-0401,NV2024-0017,Placebo,Skin & subcutaneous tissue,Urticaria,1,N,21,Y,NV-2024-CT
+AE-0402,NV2024-0117,Treatment,Skin & subcutaneous tissue,Rash,2,N,16,N,NV-2024-CT
+AE-0403,NV2024-0043,Placebo,Skin & subcutaneous tissue,Alopecia,1,N,4,N,NV-2024-CT
+AE-0404,NV2024-0173,Treatment,Skin & subcutaneous tissue,Pruritus,2,N,24,Y,NV-2024-CT
+AE-0405,NV2024-0012,Treatment,Skin & subcutaneous tissue,Rash,3,Y,8,Y,NV-2024-CT
+AE-0406,NV2024-0094,Placebo,Skin & subcutaneous tissue,Pruritus,1,N,6,N,NV-2024-CT
+AE-0407,NV2024-0010,Placebo,Skin & subcutaneous tissue,Dry skin,2,N,8,Y,NV-2024-CT
+AE-0408,NV2024-0107,Placebo,Skin & subcutaneous tissue,Alopecia,3,Y,9,N,NV-2024-CT
+AE-0409,NV2024-0147,Treatment,Skin & subcutaneous tissue,Urticaria,1,N,22,N,NV-2024-CT
+AE-0410,NV2024-0046,Treatment,Skin & subcutaneous tissue,Urticaria,1,N,2,N,NV-2024-CT
+AE-0411,NV2024-0018,Placebo,Skin & subcutaneous tissue,Alopecia,3,Y,10,Y,NV-2024-CT
+AE-0412,NV2024-0142,Placebo,Skin & subcutaneous tissue,Alopecia,1,N,7,Y,NV-2024-CT
+AE-0413,NV2024-0078,Placebo,Skin & subcutaneous tissue,Pruritus,2,N,15,Y,NV-2024-CT
+AE-0414,NV2024-0127,Treatment,Skin & subcutaneous tissue,Pruritus,4,Y,24,N,NV-2024-CT
+AE-0415,NV2024-0195,Placebo,Skin & subcutaneous tissue,Pruritus,3,Y,1,N,NV-2024-CT
+AE-0416,NV2024-0007,Treatment,Skin & subcutaneous tissue,Alopecia,1,N,21,N,NV-2024-CT
+AE-0417,NV2024-0003,Treatment,Skin & subcutaneous tissue,Rash,4,Y,22,Y,NV-2024-CT
+AE-0418,NV2024-0189,Treatment,Skin & subcutaneous tissue,Rash,2,N,7,Y,NV-2024-CT
+AE-0419,NV2024-0061,Treatment,Skin & subcutaneous tissue,Rash,1,N,5,Y,NV-2024-CT
+AE-0420,NV2024-0024,Treatment,Skin & subcutaneous tissue,Pruritus,1,N,17,Y,NV-2024-CT
+AE-0421,NV2024-0096,Treatment,Skin & subcutaneous tissue,Rash,1,N,19,Y,NV-2024-CT
+AE-0422,NV2024-0035,Treatment,Skin & subcutaneous tissue,Dry skin,2,N,3,Y,NV-2024-CT
+AE-0423,NV2024-0016,Treatment,Cardiac disorders,Tachycardia,1,N,8,Y,NV-2024-CT
+AE-0424,NV2024-0081,Placebo,Cardiac disorders,Chest pain,3,Y,23,N,NV-2024-CT
+AE-0425,NV2024-0084,Placebo,Cardiac disorders,Hypertension,1,N,8,Y,NV-2024-CT
+AE-0426,NV2024-0052,Treatment,Cardiac disorders,Bradycardia,1,N,4,Y,NV-2024-CT
+AE-0427,NV2024-0043,Placebo,Cardiac disorders,Hypertension,1,N,14,Y,NV-2024-CT
+AE-0428,NV2024-0092,Placebo,Cardiac disorders,Tachycardia,4,Y,15,Y,NV-2024-CT
+AE-0429,NV2024-0068,Treatment,Cardiac disorders,Palpitations,3,Y,6,N,NV-2024-CT
+AE-0430,NV2024-0078,Placebo,Cardiac disorders,Bradycardia,3,Y,2,Y,NV-2024-CT
+AE-0431,NV2024-0084,Placebo,Cardiac disorders,Tachycardia,1,N,12,Y,NV-2024-CT
+AE-0432,NV2024-0013,Treatment,Cardiac disorders,Hypertension,2,N,6,Y,NV-2024-CT
+AE-0433,NV2024-0104,Placebo,Cardiac disorders,Bradycardia,3,Y,24,Y,NV-2024-CT
+AE-0434,NV2024-0025,Placebo,Cardiac disorders,Tachycardia,1,N,4,Y,NV-2024-CT
+AE-0435,NV2024-0200,Treatment,Cardiac disorders,Tachycardia,4,Y,7,N,NV-2024-CT
+AE-0436,NV2024-0096,Treatment,Cardiac disorders,Palpitations,2,N,19,Y,NV-2024-CT
+AE-0437,NV2024-0020,Placebo,Cardiac disorders,Palpitations,1,N,7,N,NV-2024-CT
+AE-0438,NV2024-0114,Treatment,Cardiac disorders,Palpitations,3,Y,11,Y,NV-2024-CT
+AE-0439,NV2024-0119,Placebo,Cardiac disorders,Bradycardia,1,N,14,N,NV-2024-CT
+AE-0440,NV2024-0102,Treatment,Cardiac disorders,Chest pain,2,N,22,Y,NV-2024-CT
+AE-0441,NV2024-0091,Treatment,Cardiac disorders,Tachycardia,1,N,9,Y,NV-2024-CT
+AE-0442,NV2024-0039,Placebo,Cardiac disorders,Bradycardia,1,N,20,Y,NV-2024-CT
+AE-0443,NV2024-0076,Placebo,Cardiac disorders,Bradycardia,2,N,16,Y,NV-2024-CT
+AE-0444,NV2024-0072,Treatment,Cardiac disorders,Chest pain,1,N,7,Y,NV-2024-CT
+AE-0445,NV2024-0135,Placebo,Cardiac disorders,Bradycardia,1,N,1,N,NV-2024-CT
+AE-0446,NV2024-0183,Placebo,Cardiac disorders,Bradycardia,1,N,16,Y,NV-2024-CT
+AE-0447,NV2024-0145,Treatment,Cardiac disorders,Chest pain,2,N,9,Y,NV-2024-CT
+AE-0448,NV2024-0082,Placebo,Cardiac disorders,Palpitations,2,N,9,Y,NV-2024-CT
+AE-0449,NV2024-0121,Treatment,Cardiac disorders,Bradycardia,2,N,8,N,NV-2024-CT
+AE-0450,NV2024-0026,Treatment,Cardiac disorders,Tachycardia,1,N,9,Y,NV-2024-CT
+AE-0451,NV2024-0189,Treatment,Cardiac disorders,Tachycardia,1,N,19,N,NV-2024-CT
+AE-0452,NV2024-0100,Treatment,Hepatobiliary disorders,AST increased,1,N,6,Y,NV-2024-CT
+AE-0453,NV2024-0082,Placebo,Hepatobiliary disorders,Hepatotoxicity,3,Y,19,Y,NV-2024-CT
+AE-0454,NV2024-0180,Placebo,Hepatobiliary disorders,Cholestasis,1,N,19,Y,NV-2024-CT
+AE-0455,NV2024-0049,Treatment,Hepatobiliary disorders,Jaundice,3,Y,18,Y,NV-2024-CT
+AE-0456,NV2024-0126,Placebo,Hepatobiliary disorders,ALT increased,1,N,8,Y,NV-2024-CT
+AE-0457,NV2024-0006,Treatment,Hepatobiliary disorders,ALT increased,2,N,11,N,NV-2024-CT
+AE-0458,NV2024-0052,Treatment,Hepatobiliary disorders,Hepatotoxicity,3,Y,23,Y,NV-2024-CT
+AE-0459,NV2024-0083,Placebo,Hepatobiliary disorders,AST increased,1,N,19,Y,NV-2024-CT
+AE-0460,NV2024-0037,Treatment,Hepatobiliary disorders,Cholestasis,2,N,12,N,NV-2024-CT
+AE-0461,NV2024-0096,Treatment,Hepatobiliary disorders,Jaundice,2,N,19,Y,NV-2024-CT
+AE-0462,NV2024-0078,Placebo,Hepatobiliary disorders,AST increased,1,N,24,N,NV-2024-CT
+AE-0463,NV2024-0164,Treatment,Hepatobiliary disorders,Hepatotoxicity,4,Y,6,Y,NV-2024-CT
+AE-0464,NV2024-0144,Placebo,Hepatobiliary disorders,Cholestasis,2,N,12,Y,NV-2024-CT
+AE-0465,NV2024-0151,Placebo,Hepatobiliary disorders,Jaundice,3,Y,10,Y,NV-2024-CT
+AE-0466,NV2024-0076,Placebo,Hepatobiliary disorders,ALT increased,1,N,23,N,NV-2024-CT
+AE-0467,NV2024-0101,Treatment,Hepatobiliary disorders,Cholestasis,3,Y,2,Y,NV-2024-CT
+AE-0468,NV2024-0082,Placebo,Hepatobiliary disorders,Cholestasis,3,Y,8,Y,NV-2024-CT
+AE-0469,NV2024-0027,Treatment,Hepatobiliary disorders,AST increased,3,Y,11,Y,NV-2024-CT
+AE-0470,NV2024-0061,Treatment,Hepatobiliary disorders,Hepatotoxicity,1,N,6,Y,NV-2024-CT
+AE-0471,NV2024-0023,Treatment,Hepatobiliary disorders,Hepatotoxicity,3,Y,15,Y,NV-2024-CT
+AE-0472,NV2024-0054,Placebo,Hepatobiliary disorders,ALT increased,1,N,12,Y,NV-2024-CT
+AE-0473,NV2024-0028,Placebo,Hepatobiliary disorders,ALT increased,2,N,13,Y,NV-2024-CT
