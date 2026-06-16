@@ -161,15 +161,6 @@ open Dashboard/index.html
 
 ---
 
-## How to deploy on GitHub Pages
-
-1. Push this repo to GitHub
-2. Go to **Settings → Pages**
-3. Set source to `main` branch → `/Dashboard` folder
-4. Save — live in ~60 seconds at `namratharao22.github.io/clinical-trial-dashboard`
-
----
-
 ## Skills demonstrated
 
 - CDISC ADaM dataset structure (ADSL, ADAE domain conventions)
